@@ -1,0 +1,41 @@
+[build]
+seed = 42
+target_chars = 50000000
+min_chars = 49000000
+max_chars = 51000000
+tolerance_pp = 2
+split_tolerance_pp = 2
+year_min = 1800
+year_max = 1945
+rights_year = 2026
+group_authors = true
+
+[topics]
+fiction = 0.30
+science_natural_history = 0.20
+history = 0.16
+letters_diaries_memoirs = 0.14
+travel_exploration = 0.10
+essays_philosophy_economics_society = 0.06
+practical_technical = 0.04
+
+[regions]
+UK = 0.40
+US = 0.30
+CA = 0.12
+AU = 0.10
+NZ = 0.08
+
+[splits]
+train = 0.90
+validation = 0.05
+test = 0.05
+
+[sources]
+max_documents = 360
+max_candidates = 1000
+workers = 4
+delay_seconds = 0.5
+timeout_seconds = 45
+max_document_bytes = 14000000
+regional = true

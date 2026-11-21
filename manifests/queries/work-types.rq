@@ -1,0 +1,5 @@
+SELECT DISTINCT ?work ?kindLabel ?published ?author WHERE {
+  VALUES ?work { WORK_IDS }
+  ?work wdt:P31 ?kind; wdt:P577 ?published; wdt:P50 ?author.
+  ?kind rdfs:label ?kindLabel. FILTER(LANG(?kindLabel)="en")
+}

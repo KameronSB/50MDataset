@@ -1,0 +1,399 @@
+{
+  "build_id": "trial-10-14198ee31c0366cc",
+  "integrity_valid": true,
+  "targets_met": false,
+  "size_target_met": false,
+  "composition_targets_met": false,
+  "partition_targets_met": false,
+  "characters": 4456834,
+  "target_characters": 50000000,
+  "shortfall_to_nominal": 45543166,
+  "shortfall_to_lower_bound": 44543166,
+  "documents": 10,
+  "principal_authors": 10,
+  "topics": {
+    "essays_philosophy_economics_society": {
+      "characters": 228487,
+      "actual_pct": 5.126666149109435,
+      "target_pct": 6.0,
+      "deviation_pp": -0.8733338508905648
+    },
+    "fiction": {
+      "characters": 2350380,
+      "actual_pct": 52.73653898709263,
+      "target_pct": 30.0,
+      "deviation_pp": 22.73653898709263
+    },
+    "history": {
+      "characters": 0,
+      "actual_pct": 0.0,
+      "target_pct": 16.0,
+      "deviation_pp": -16.0
+    },
+    "letters_diaries_memoirs": {
+      "characters": 635284,
+      "actual_pct": 14.254154406468807,
+      "target_pct": 14.000000000000002,
+      "deviation_pp": 0.25415440646880505
+    },
+    "practical_technical": {
+      "characters": 366631,
+      "actual_pct": 8.226265550837208,
+      "target_pct": 4.0,
+      "deviation_pp": 4.2262655508372085
+    },
+    "science_natural_history": {
+      "characters": 678901,
+      "actual_pct": 15.23280876065835,
+      "target_pct": 20.0,
+      "deviation_pp": -4.767191239341649
+    },
+    "travel_exploration": {
+      "characters": 197151,
+      "actual_pct": 4.423566145833567,
+      "target_pct": 10.0,
+      "deviation_pp": -5.576433854166433
+    }
+  },
+  "regions": {
+    "AU": {
+      "characters": 442014,
+      "actual_pct": 9.917668012764217,
+      "target_pct": 10.0,
+      "deviation_pp": -0.08233198723578283
+    },
+    "CA": {
+      "characters": 1595682,
+      "actual_pct": 35.803038659281455,
+      "target_pct": 12.0,
+      "deviation_pp": 23.803038659281455
+    },
+    "NZ": {
+      "characters": 236887,
+      "actual_pct": 5.315140747894133,
+      "target_pct": 8.0,
+      "deviation_pp": -2.684859252105867
+    },
+    "UK": {
+      "characters": 983185,
+      "actual_pct": 22.060166476920614,
+      "target_pct": 40.0,
+      "deviation_pp": -17.939833523079386
+    },
+    "US": {
+      "characters": 1199066,
+      "actual_pct": 26.903986103139584,
+      "target_pct": 30.0,
+      "deviation_pp": -3.0960138968604163
+    }
+  },
+  "partitions": {
+    "train": {
+      "documents": 8,
+      "characters": 3854387,
+      "actual_pct": 86.4826242126137,
+      "target_pct": 90.0,
+      "deviation_pp": -3.5173757873862996,
+      "topics": {
+        "essays_philosophy_economics_society": 228487,
+        "fiction": 1747933,
+        "letters_diaries_memoirs": 635284,
+        "practical_technical": 366631,
+        "science_natural_history": 678901,
+        "travel_exploration": 197151
+      },
+      "regions": {
+        "AU": 442014,
+        "CA": 1273435,
+        "NZ": 236887,
+        "UK": 702985,
+        "US": 1199066
+      }
+    },
+    "validation": {
+      "documents": 1,
+      "characters": 322247,
+      "actual_pct": 7.2304016707824434,
+      "target_pct": 5.0,
+      "deviation_pp": 2.2304016707824434,
+      "topics": {
+        "fiction": 322247
+      },
+      "regions": {
+        "CA": 322247
+      }
+    },
+    "test": {
+      "documents": 1,
+      "characters": 280200,
+      "actual_pct": 6.286974116603849,
+      "target_pct": 5.0,
+      "deviation_pp": 1.286974116603849,
+      "topics": {
+        "fiction": 280200
+      },
+      "regions": {
+        "UK": 280200
+      }
+    }
+  },
+  "decades": {
+    "1870s": 1273435,
+    "1880s": 474498,
+    "1890s": 236887,
+    "1900s": 799598,
+    "1910s": 1672416
+  },
+  "historical_periods": {
+    "1850–1899": 1984820,
+    "1900–1945": 2472014
+  },
+  "selected_source_characters": {
+    "Project Gutenberg": 4014820,
+    "Project Gutenberg Australia": 442014
+  },
+  "author_concentration": [
+    {
+      "authors": "Kirby, William, 1817-1906",
+      "documents": 1,
+      "characters": 1273435,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Antin, Mary, 1881-1949",
+      "documents": 1,
+      "characters": 635284,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Garnett, Richard, 1835-1906",
+      "documents": 1,
+      "characters": 474498,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Edmund James Banfield",
+      "documents": 1,
+      "characters": 442014,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Record, Samuel J. (Samuel James), 1881-1945",
+      "documents": 1,
+      "characters": 366631,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Roberts, Charles G. D., Sir, 1860-1943",
+      "documents": 1,
+      "characters": 322247,
+      "partitions": [
+        "validation"
+      ]
+    },
+    {
+      "authors": "Hodgson, William Hope, 1877-1918",
+      "documents": 1,
+      "characters": 280200,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Hudson, G. V. (George Vernon), 1867-1946",
+      "documents": 1,
+      "characters": 236887,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Wells, H. G. (Herbert George), 1866-1946",
+      "documents": 1,
+      "characters": 228487,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Austin, Mary, 1868-1934",
+      "documents": 1,
+      "characters": 197151,
+      "partitions": [
+        "train"
+      ]
+    }
+  ],
+  "review_reason_counts": {
+    "Item record has not been checked in the bounded acquisition run": 1812,
+    "evidence review incomplete": 5,
+    "Previously acquired or inspected item no longer matches the current bibliographic evidence": 4,
+    "English catalogue evidence required": 1,
+    "English original or dated translator evidence required": 1,
+    "historical publication unverified": 1,
+    "missing contributor_basis": 1,
+    "missing rights_basis": 1,
+    "missing version_basis": 1,
+    "missing/invalid contributor_evidence_url": 1,
+    "missing/invalid language_evidence_url": 1,
+    "missing/invalid uk_rights_evidence_url": 1,
+    "missing/invalid version_evidence_url": 1,
+    "text contributor term unresolved": 1,
+    "unreviewed textual contributors": 1
+  },
+  "candidate_outcomes": {
+    "review": 1818,
+    "selected": 10,
+    "excluded": 7
+  },
+  "unfulfilled_inclusions": {},
+  "unmatched_overrides": [],
+  "acquisition_errors": {},
+  "retained_clean_documents": 10,
+  "retained_clean_characters_before_dedup": 4456834,
+  "output_sha256": {
+    "corpus.jsonl": "68ce16275159d455f1d2661acf3a3c0fe4cc37b2e5f80d9f32fa305444c3eebe",
+    "train.jsonl": "9c0c3387f752b34360dca025d6446f2c472a3c5a200a96b1120f007d2ff29a9f",
+    "validation.jsonl": "56fca7775312d37442735b353f206dece28dcc1aabfa499986e8a1b72672e2ea",
+    "test.jsonl": "ee19a759ff2633e9084d7e0da9ae6b343522215642b902813dda7ed10c432284",
+    "selected_manifest.csv": "10732709d54f6db8a2cb7adda183d2a4f3c8eef90e3f63048fa3ceda7d431d9c",
+    "split_manifest.csv": "b955166437f93e49c04452e1f9d8c000b01625efdb0b0619fd014a698dfc1a92"
+  },
+  "source_status": {
+    "Project Gutenberg": {
+      "status": "working",
+      "detail": "1,833 candidate records, 13 retained raw documents and 0 item acquisition errors in this build."
+    },
+    "Project Gutenberg Australia": {
+      "status": "working",
+      "detail": "1 candidate records, 1 retained raw documents and 0 item acquisition errors in this build."
+    },
+    "Faded Page": {
+      "status": "discovered",
+      "detail": "Linked TXT returned the record HTML on the direct automated request. Edition and text boundaries unresolved."
+    },
+    "DigitalNZ": {
+      "status": "discovery only",
+      "detail": "Developer landing page returned an empty 202 response in the access check. No API integration."
+    },
+    "NZETC": {
+      "status": "unavailable for automatic use",
+      "detail": "Web archive collection with item-specific permissions. No eligible text route verified."
+    }
+  },
+  "validation": {
+    "integrity_valid": true,
+    "build_id": "trial-10-14198ee31c0366cc",
+    "raw_documents_verified": 14,
+    "catalogue_and_item_metadata_files_verified": 15,
+    "selected_documents_verified": 10,
+    "characters": {
+      "corpus": 4456834,
+      "train": 3854387,
+      "validation": 322247,
+      "test": 280200
+    },
+    "export_separator_characters": {
+      "corpus": 18,
+      "train": 14,
+      "validation": 0,
+      "test": 0
+    }
+  },
+  "configuration": {
+    "build": {
+      "group_authors": true,
+      "max_chars": 51000000,
+      "min_chars": 49000000,
+      "rights_year": 2026,
+      "seed": 42,
+      "split_tolerance_pp": 2,
+      "target_chars": 50000000,
+      "tolerance_pp": 2,
+      "year_max": 1945,
+      "year_min": 1800
+    },
+    "regions": {
+      "AU": 0.1,
+      "CA": 0.12,
+      "NZ": 0.08,
+      "UK": 0.4,
+      "US": 0.3
+    },
+    "sources": {
+      "delay_seconds": 0.5,
+      "max_candidates": 1000,
+      "max_document_bytes": 14000000,
+      "max_documents": 360,
+      "regional": true,
+      "timeout_seconds": 45,
+      "workers": 4
+    },
+    "splits": {
+      "test": 0.05,
+      "train": 0.9,
+      "validation": 0.05
+    },
+    "topics": {
+      "essays_philosophy_economics_society": 0.06,
+      "fiction": 0.3,
+      "history": 0.16,
+      "letters_diaries_memoirs": 0.14,
+      "practical_technical": 0.04,
+      "science_natural_history": 0.2,
+      "travel_exploration": 0.1
+    }
+  },
+  "input_fingerprints": {
+    "cleaning_version": "6",
+    "config_sha256": "3e81e67d00fc56bba285d62bdc4d41efdee0ca03a46c3c1d9436d64178ce7908",
+    "manifest_sha256": {
+      "data/candidates-trial-10.csv": "62f5879728c4bc880b01ad503ce90f1a9aefa5e4ab96255b0b19eee7a322d0dc",
+      "manifests/nz_evidence.csv": "2ba6b9a05f1ebdbc4591d21f651f60f42cc5ee54e9246f319ece143e4aa2cc62",
+      "manifests/overrides.csv": "e934e455bac880a12fd81f9ba7f79d78bc2839357172b7f7f131cef33a78f1c1",
+      "manifests/work_evidence.csv": "924c7b7df086913541d93589eee50323860b83f5e4c55c04229575b09b72f82e"
+    },
+    "max_documents": 10,
+    "raw_sha256": {
+      "pg-10002": "d19d7c7dae76293dfe205670fe815959f5b597ead015b4a6996b41120bf2bb76",
+      "pg-10060": "f05bbba837bdf6de728c849826f6ecba1952e68de7354887b29f6e5c3e62cb87",
+      "pg-10095": "37a18156856585628b8d70e41c087c2fd572e405c2b5273de7aabe99e227edbd",
+      "pg-1015": "d86dfbe156a82e0eaa1010952464ddf3136c70c642e04da37d2a89339a7e311a",
+      "pg-10217": "361be5b89438e29a943392d6161cb6b9dfb28382da4f7dc75305e466c5a4d09a",
+      "pg-1046": "a28424efc3dabc6369023904294ecf9ebc25218c89e67906f550e5b08e5b320f",
+      "pg-12299": "f8cdcf2a69c6adfd829bfcffdaf27623223630204642908cc8ffb9252a08e049",
+      "pg-16077": "65c91ee294cac205096005801b03ac6712c6aa690004188d833d6f42dcfabbcf",
+      "pg-20885": "38d820bb3954f8c31a56fadaa99668a4695d3f760ed04e940c694423dee8b755",
+      "pg-2735": "b17e37cab6a1dd893a3bc25ef5ba35ba6c2895309bd0dbbf206fdbe3be5788c5",
+      "pg-29313": "1f13ee90cffd95c90821bed52fec07f546c7171dc8c99a46831b78533cf1b1c8",
+      "pg-44096": "e83a8e3ec66ecf1f634712b1c5d09223c476b7e5869c94ba13e3a0453fdbfd26",
+      "pg-7324": "81f73fde1850cc15ac797f7869d71ed607ebdf18a9335065b9f2e8b7596ce52d",
+      "pga-e00004": "72896c4cb4185ee7d86457c639531bba11ba8ce493d0cb631141b934881953d3"
+    },
+    "rows_sha256": "1c9506c2a5d5179d8fc4e3586924752589f44c22cea453a75bd7c66aa3ef1fea",
+    "source_code_sha256": {
+      "__init__.py": "053011681f86fd513abf92c79bb951cd30d1b09b49b3e622aededde018d4e7be",
+      "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "build.py": "b3fd1e4d777679c7bfe056456ee48c599b92bb597c80a5a4f2905b210e35da26",
+      "clean.py": "d7180b04f3278d06fb13ccffca1b35a72b82910297d9eecaf7d8b1afd0b3911c",
+      "cli.py": "0b3246fe27ce7fb64cb9ba8416f0ab09bf4bb091ad6380097ebc0c3ab84530c0",
+      "crosswalk.py": "6cf0305e2c7f0de5867b455158f96a3afc22ea26f6ef142a3f5913c80ad4f4f1",
+      "evidence.py": "e236afa2f0bdb31691987c0b03b737cd64e0e996d36bb8792dd3d94d873d0f80",
+      "overrides.py": "fbf3b8aafa784a0bb7bf19d50da771967a5c60ba93b2f968196a12aa722a13ba",
+      "regional.py": "ca782d3fe0efeff6718953b7277f6cdf04456bf6f08f22e6c8273f79805f57a9",
+      "report.py": "efa6846865689919fc6a3f3a0d435d0280923b11ec9e0dd1361eecd145d471f7",
+      "sources.py": "ec2afb65bb3c2dfa06450afa8c9c3f85bb05019b8b889ebab2f903efa4211142"
+    },
+    "unmatched_overrides": []
+  }
+}

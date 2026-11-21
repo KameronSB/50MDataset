@@ -1,0 +1,14 @@
+/data/
+/.venv/
+/.uv-cache/
+/.cache/
+/.scratch/
+/.env
+/.env.*
+!/.env.example
+*.log
+__pycache__/
+*.py[cod]
+*.egg-info/
+/dist/
+/build/

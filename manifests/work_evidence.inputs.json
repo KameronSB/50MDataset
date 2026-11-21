@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://query.wikidata.org/sparql",
+  "licence": "Wikidata structured data, CC0",
+  "sha256": {
+    "authors.csv": "f195171abd99386e1dda1e60eda48d6e1446056b668e5bb7a69864982a201a91",
+    "work-filtered.csv": "4e8dc4e4108d63534f3a0b0b2aef497f249e2e559966e2222ee0a51e8b14899b",
+    "works_by_title-filtered.csv": "98e11b81b8504a15f01cf242745c03d89a3afce69ab03b43ec1efcee201e684b",
+    "types-763b8ea07d12df8c.csv": "838145cf7ab41bc69399210492bcd6cf822263bea2b1a77159ae5d1de4543fc1",
+    "66847ed72335833379699bd2c3d0ae1c1180521c43d405a7ab9b28e28e1afd8e.csv.gz": "66847ed72335833379699bd2c3d0ae1c1180521c43d405a7ab9b28e28e1afd8e",
+    "nz_evidence.csv": "2ba6b9a05f1ebdbc4591d21f651f60f42cc5ee54e9246f319ece143e4aa2cc62",
+    "authors.rq": "c5fb1bb5a84136e847dcc0a85ab37fc1a967f1a29c5cd005f744191f4985e309",
+    "work-filtered.rq": "9911b730c8bdab82c7a47ee0a8229a68c0fdde4777e85b39a437a8c81ab3f2bb",
+    "work-types.rq": "fb46a3e002575a1a31bd5dbbd526aabd21bf37a48a13319fd082526297cdfb87",
+    "works_by_title-filtered.rq": "ac87336256e779b1ec4c2a80a834e5133087d1801832999281c694d006d654ed",
+    "work_evidence.csv": "924c7b7df086913541d93589eee50323860b83f5e4c55c04229575b09b72f82e"
+  }
+}

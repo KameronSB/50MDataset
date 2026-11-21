@@ -1,0 +1,6 @@
+SELECT ?work ?published ?author ?label WHERE {
+  ?work wdt:P407 wd:Q1860; wdt:P50 ?author; wdt:P577 ?published; rdfs:label ?label.
+  FILTER(LANG(?label)="en")
+  FILTER(?published >= "1800-01-01T00:00:00Z"^^xsd:dateTime && ?published < "1946-01-01T00:00:00Z"^^xsd:dateTime)
+  ?author wdt:P1938 ?pgAuthor.
+ FILTER NOT EXISTS { ?work wdt:P629 ?original } FILTER NOT EXISTS { ?work wdt:P655 ?tr } FILTER NOT EXISTS { ?work wdt:P407 ?other . FILTER (?other != wd:Q1860) }}

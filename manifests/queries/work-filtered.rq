@@ -1,0 +1,5 @@
+SELECT ?work ?pg ?published ?author ?pgAuthor ?label WHERE {
+  ?work wdt:P2034 ?pg; wdt:P577 ?published; wdt:P50 ?author; wdt:P407 wd:Q1860; rdfs:label ?label.
+  FILTER(LANG(?label)="en")
+  ?author wdt:P1938 ?pgAuthor.
+ FILTER NOT EXISTS { ?work wdt:P629 ?original } FILTER NOT EXISTS { ?work wdt:P655 ?tr } FILTER NOT EXISTS { ?work wdt:P407 ?other . FILTER (?other != wd:Q1860) }}

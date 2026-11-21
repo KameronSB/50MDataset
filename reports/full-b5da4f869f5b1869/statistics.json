@@ -1,0 +1,1638 @@
+{
+  "build_id": "full-b5da4f869f5b1869",
+  "integrity_valid": true,
+  "targets_met": true,
+  "size_target_met": true,
+  "composition_targets_met": true,
+  "partition_targets_met": true,
+  "characters": 49802774,
+  "target_characters": 50000000,
+  "shortfall_to_nominal": 197226,
+  "shortfall_to_lower_bound": 0,
+  "documents": 140,
+  "principal_authors": 98,
+  "topics": {
+    "essays_philosophy_economics_society": {
+      "characters": 3096128,
+      "actual_pct": 6.216778205969009,
+      "target_pct": 6.0,
+      "deviation_pp": 0.21677820596900865
+    },
+    "fiction": {
+      "characters": 15175863,
+      "actual_pct": 30.471923110146435,
+      "target_pct": 30.0,
+      "deviation_pp": 0.4719231101464345
+    },
+    "history": {
+      "characters": 8131644,
+      "actual_pct": 16.327692911242252,
+      "target_pct": 16.0,
+      "deviation_pp": 0.3276929112422522
+    },
+    "letters_diaries_memoirs": {
+      "characters": 6961995,
+      "actual_pct": 13.979130961660891,
+      "target_pct": 14.000000000000002,
+      "deviation_pp": -0.0208690383391108
+    },
+    "practical_technical": {
+      "characters": 2290713,
+      "actual_pct": 4.599569092275864,
+      "target_pct": 4.0,
+      "deviation_pp": 0.5995690922758641
+    },
+    "science_natural_history": {
+      "characters": 9085252,
+      "actual_pct": 18.24246175524279,
+      "target_pct": 20.0,
+      "deviation_pp": -1.7575382447572103
+    },
+    "travel_exploration": {
+      "characters": 5061179,
+      "actual_pct": 10.162443963462758,
+      "target_pct": 10.0,
+      "deviation_pp": 0.16244396346275813
+    }
+  },
+  "regions": {
+    "AU": {
+      "characters": 4929867,
+      "actual_pct": 9.898779935430905,
+      "target_pct": 10.0,
+      "deviation_pp": -0.1012200645690946
+    },
+    "CA": {
+      "characters": 5854224,
+      "actual_pct": 11.754815103271156,
+      "target_pct": 12.0,
+      "deviation_pp": -0.24518489672884414
+    },
+    "NZ": {
+      "characters": 4104317,
+      "actual_pct": 8.241141346865538,
+      "target_pct": 8.0,
+      "deviation_pp": 0.2411413468655379
+    },
+    "UK": {
+      "characters": 19983911,
+      "actual_pct": 40.12610020477976,
+      "target_pct": 40.0,
+      "deviation_pp": 0.12610020477976036
+    },
+    "US": {
+      "characters": 14930455,
+      "actual_pct": 29.979163409652642,
+      "target_pct": 30.0,
+      "deviation_pp": -0.020836590347357742
+    }
+  },
+  "partitions": {
+    "train": {
+      "documents": 125,
+      "characters": 44741185,
+      "actual_pct": 89.83673278922174,
+      "target_pct": 90.0,
+      "deviation_pp": -0.16326721077825823,
+      "topics": {
+        "essays_philosophy_economics_society": 3081193,
+        "fiction": 13454151,
+        "history": 7160273,
+        "letters_diaries_memoirs": 6412955,
+        "practical_technical": 2135342,
+        "science_natural_history": 8011778,
+        "travel_exploration": 4485493
+      },
+      "regions": {
+        "AU": 3477406,
+        "CA": 5854224,
+        "NZ": 3112790,
+        "UK": 18258820,
+        "US": 14037945
+      }
+    },
+    "validation": {
+      "documents": 8,
+      "characters": 2528648,
+      "actual_pct": 5.07732360450444,
+      "target_pct": 5.0,
+      "deviation_pp": 0.07732360450444009,
+      "topics": {
+        "fiction": 1050215,
+        "history": 356211,
+        "letters_diaries_memoirs": 549040,
+        "practical_technical": 155371,
+        "science_natural_history": 417811
+      },
+      "regions": {
+        "AU": 1050215,
+        "UK": 1069428,
+        "US": 409005
+      }
+    },
+    "test": {
+      "documents": 7,
+      "characters": 2532941,
+      "actual_pct": 5.085943606273819,
+      "target_pct": 5.0,
+      "deviation_pp": 0.08594360627381903,
+      "topics": {
+        "essays_philosophy_economics_society": 14935,
+        "fiction": 671497,
+        "history": 615160,
+        "science_natural_history": 655663,
+        "travel_exploration": 575686
+      },
+      "regions": {
+        "AU": 402246,
+        "NZ": 991527,
+        "UK": 655663,
+        "US": 483505
+      }
+    }
+  },
+  "decades": {
+    "1810s": 236874,
+    "1820s": 487431,
+    "1830s": 4350418,
+    "1840s": 1007761,
+    "1850s": 1158869,
+    "1860s": 2248181,
+    "1870s": 3138990,
+    "1880s": 2409423,
+    "1890s": 5089244,
+    "1900s": 9599971,
+    "1910s": 13742655,
+    "1920s": 6332957
+  },
+  "historical_periods": {
+    "1800–1849": 6082484,
+    "1850–1899": 14044707,
+    "1900–1945": 29675583
+  },
+  "selected_source_characters": {
+    "Project Gutenberg": 49360760,
+    "Project Gutenberg Australia": 442014
+  },
+  "author_concentration": [
+    {
+      "authors": "Montgomery, L. M. (Lucy Maud), 1874-1942; Claus, M. A. (May Austin), 1882-1976 [Illustrator]; Claus, William A. J. (William Anton Joseph), 1862-1926 [Illustrator]",
+      "documents": 8,
+      "characters": 3727574,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Lyell, Charles, Sir, 1797-1875",
+      "documents": 1,
+      "characters": 2577461,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Wells, H. G. (Herbert George), 1866-1946",
+      "documents": 6,
+      "characters": 2216796,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "London, Jack, 1876-1916",
+      "documents": 7,
+      "characters": 1862396,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Chesterton, G. K. (Gilbert Keith), 1874-1936",
+      "documents": 5,
+      "characters": 1414620,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Reed, John, 1887-1920",
+      "documents": 2,
+      "characters": 1210034,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Boothby, Guy, 1867-1905; Mills, Arthur Wallis, 1878-1940 [Illustrator]",
+      "documents": 3,
+      "characters": 1050215,
+      "partitions": [
+        "validation"
+      ]
+    },
+    {
+      "authors": "Reeves, William Pember, 1857-1932; Wright, F. (Frank), 1860-1923 [Illustrator]; Wright, Walter, 1866-1933 [Illustrator]",
+      "documents": 2,
+      "characters": 991527,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Custer, George A. (George Armstrong), 1839-1876",
+      "documents": 1,
+      "characters": 941078,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Dickens, Charles, 1812-1870; Townsend, F. H. (Frederick Henry), 1868-1920 [Illustrator]",
+      "documents": 1,
+      "characters": 907319,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Twain, Mark, 1835-1910",
+      "documents": 2,
+      "characters": 905491,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Spence, Catherine Helen, 1825-1910",
+      "documents": 1,
+      "characters": 844645,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Hudson, G. V. (George Vernon), 1867-1946",
+      "documents": 2,
+      "characters": 824154,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Van Loon, Hendrik Willem, 1882-1944",
+      "documents": 1,
+      "characters": 777176,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Pupin, Michael, 1858-1935",
+      "documents": 1,
+      "characters": 771386,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Taft, Helen Herron, 1861-1943",
+      "documents": 1,
+      "characters": 766922,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Norgate, Kate, 1853-1935",
+      "documents": 1,
+      "characters": 762658,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Thompson, Silvanus P. (Silvanus Phillips), 1851-1916",
+      "documents": 2,
+      "characters": 756250,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Baum, L. Frank (Lyman Frank), 1856-1919",
+      "documents": 3,
+      "characters": 754787,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Thoreau, Henry David, 1817-1862",
+      "documents": 2,
+      "characters": 713818,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Mill, John Stuart, 1806-1873",
+      "documents": 3,
+      "characters": 707136,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Barker, Lady (Mary Anne), 1831-1911",
+      "documents": 2,
+      "characters": 689717,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Lodge, Oliver, Sir, 1851-1940",
+      "documents": 1,
+      "characters": 655663,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Stevenson, Robert Louis, 1850-1894",
+      "documents": 2,
+      "characters": 651617,
+      "partitions": [
+        "validation"
+      ]
+    },
+    {
+      "authors": "Trollope, Frances Milton, 1780-1863",
+      "documents": 1,
+      "characters": 650282,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Fort, Charles, 1874-1932",
+      "documents": 1,
+      "characters": 649221,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Darwin, Charles, 1809-1882",
+      "documents": 1,
+      "characters": 645405,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Haggard, H. Rider (Henry Rider), 1856-1925",
+      "documents": 1,
+      "characters": 621526,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Becke, Louis, 1855-1913",
+      "documents": 2,
+      "characters": 607901,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Brewster, David, 1781-1868",
+      "documents": 1,
+      "characters": 602392,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Carpenter, Edward, 1844-1929",
+      "documents": 1,
+      "characters": 584602,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Strachey, Lytton, 1880-1932",
+      "documents": 1,
+      "characters": 575862,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Paterson, A. B. (Andrew Barton), 1864-1941",
+      "documents": 2,
+      "characters": 552851,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Pankhurst, Emmeline, 1858-1928",
+      "documents": 1,
+      "characters": 552799,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Matthew, Patrick, 1790-1874",
+      "documents": 1,
+      "characters": 520283,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Stringer, Arthur, 1874-1950; Snapp, Frank [Illustrator]",
+      "documents": 1,
+      "characters": 509448,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Packard, Frank L. (Frank Lucius), 1877-1942",
+      "documents": 1,
+      "characters": 489637,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Mansfield, Katherine, 1888-1923",
+      "documents": 2,
+      "characters": 488509,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Fleming, May Agnes, 1840-1880",
+      "documents": 1,
+      "characters": 477177,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Lawson, Henry, 1867-1922",
+      "documents": 2,
+      "characters": 463376,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Edmund James Banfield",
+      "documents": 1,
+      "characters": 442014,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Lawrence, D. H. (David Herbert), 1885-1930; Juta, Jan [Illustrator]",
+      "documents": 1,
+      "characters": 434884,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Hinton, Charles Howard, 1853-1907",
+      "documents": 1,
+      "characters": 429333,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Rothschild, Lionel Walter Rothschild, Baron, 1868-1937",
+      "documents": 1,
+      "characters": 417811,
+      "partitions": [
+        "validation"
+      ]
+    },
+    {
+      "authors": "Richardson, Henry Handel, 1870-1946",
+      "documents": 1,
+      "characters": 402246,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Warner, Charles Dudley, 1829-1900; Johnson, Clifton, 1865-1940 [Illustrator]",
+      "documents": 2,
+      "characters": 390286,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Record, Samuel J. (Samuel James), 1881-1945",
+      "documents": 1,
+      "characters": 366631,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "MacLane, Mary, 1881-1929",
+      "documents": 1,
+      "characters": 355162,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Whitehead, Alfred North, 1861-1947",
+      "documents": 1,
+      "characters": 354238,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Jenner, Henry, 1848-1934",
+      "documents": 1,
+      "characters": 342005,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Comstock, Anna Botsford, 1854-1930",
+      "documents": 1,
+      "characters": 337280,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Cambridge, Ada, 1844-1926",
+      "documents": 1,
+      "characters": 331346,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Leacock, Stephen, 1869-1944",
+      "documents": 1,
+      "characters": 328141,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Roberts, Charles G. D., Sir, 1860-1943",
+      "documents": 1,
+      "characters": 322247,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "McAllister, Ward, 1827-1895",
+      "documents": 1,
+      "characters": 316721,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Van Dyke, Henry, 1852-1933",
+      "documents": 1,
+      "characters": 312126,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Vogel, Julius, Sir, 1835-1899",
+      "documents": 1,
+      "characters": 293033,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Maning, Frederick Edward, 1812-1883",
+      "documents": 1,
+      "characters": 277949,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Stowe, Harriet Beecher, 1811-1896",
+      "documents": 1,
+      "characters": 271863,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Irving, Washington, 1783-1859; Caldecott, Randolph, 1846-1886 [Illustrator]",
+      "documents": 1,
+      "characters": 269251,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Burroughs, Edgar Rice, 1875-1950",
+      "documents": 1,
+      "characters": 268363,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Reed, Myrtle, 1874-1911",
+      "documents": 1,
+      "characters": 266807,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Rice, Alice Caldwell Hegan, 1870-1942",
+      "documents": 1,
+      "characters": 256142,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Coolidge, Calvin, 1872-1933",
+      "documents": 1,
+      "characters": 253634,
+      "partitions": [
+        "validation"
+      ]
+    },
+    {
+      "authors": "Hibberd, Shirley, 1825-1890",
+      "documents": 1,
+      "characters": 251550,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Leadbeater, C. W. (Charles Webster), 1854-1934",
+      "documents": 1,
+      "characters": 248894,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Rudd, Steele, 1868-1935",
+      "documents": 1,
+      "characters": 235273,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Richardson, Anna Steese, 1865-1949; Corson, C. S. (Charles Schell), 1882-1921 [Illustrator]",
+      "documents": 1,
+      "characters": 233948,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Leask, W. Keith (William Keith), 1857-1925; Brown, Joseph [Illustrator]",
+      "documents": 1,
+      "characters": 229548,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Goldman, Emma, 1869-1940",
+      "documents": 1,
+      "characters": 223679,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "De Quincey, Thomas, 1785-1859",
+      "documents": 1,
+      "characters": 218180,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Cowan, James, 1870-1943",
+      "documents": 1,
+      "characters": 217519,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Webster, Jean, 1876-1916",
+      "documents": 1,
+      "characters": 216101,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Blackwood, Algernon, 1869-1951",
+      "documents": 2,
+      "characters": 215688,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Mannering, George Edward, 1862-1947",
+      "documents": 1,
+      "characters": 213239,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Gale, Zona, 1874-1938",
+      "documents": 1,
+      "characters": 208787,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Taylor, Frederick Winslow, 1856-1915",
+      "documents": 1,
+      "characters": 207515,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Abbott, Edwin Abbott, 1838-1926",
+      "documents": 1,
+      "characters": 203776,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Benson, E. F. (Edward Frederic), 1867-1940",
+      "documents": 1,
+      "characters": 202754,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Austin, Mary, 1868-1934",
+      "documents": 1,
+      "characters": 199319,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Besant, Annie, 1847-1933",
+      "documents": 1,
+      "characters": 189878,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Bradford, Sarah H. (Sarah Hopkins), 1818-1912",
+      "documents": 1,
+      "characters": 187426,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Peacock, Thomas Love, 1785-1866",
+      "documents": 1,
+      "characters": 176139,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Alcott, Louisa May, 1832-1888",
+      "documents": 1,
+      "characters": 165330,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Doyle, Arthur Conan, 1859-1930",
+      "documents": 1,
+      "characters": 164735,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Carroll, Lewis, 1832-1898",
+      "documents": 1,
+      "characters": 164216,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Richards, Ellen H. (Ellen Henrietta), 1842-1911",
+      "documents": 1,
+      "characters": 155371,
+      "partitions": [
+        "validation"
+      ]
+    },
+    {
+      "authors": "Moss, Edward George Britton, 1856-1916",
+      "documents": 1,
+      "characters": 108670,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Orr, M. A. (Mary Acworth), 1867-1949",
+      "documents": 1,
+      "characters": 105117,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Bennett, Arnold, 1867-1931",
+      "documents": 1,
+      "characters": 71553,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Malthus, T. R. (Thomas Robert), 1766-1834",
+      "documents": 1,
+      "characters": 60735,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Talbot, William Henry Fox, 1800-1877",
+      "documents": 1,
+      "characters": 56127,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Wister, Owen, 1860-1938",
+      "documents": 1,
+      "characters": 49775,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Wilson, Woodrow, 1856-1924",
+      "documents": 1,
+      "characters": 37934,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Huxley, Thomas Henry, 1825-1895",
+      "documents": 1,
+      "characters": 36425,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Hubbard, Elbert, 1856-1915",
+      "documents": 1,
+      "characters": 14935,
+      "partitions": [
+        "test"
+      ]
+    },
+    {
+      "authors": "Poe, Edgar Allan, 1809-1849",
+      "documents": 1,
+      "characters": 13760,
+      "partitions": [
+        "train"
+      ]
+    },
+    {
+      "authors": "Potter, Beatrix, 1866-1943",
+      "documents": 1,
+      "characters": 7654,
+      "partitions": [
+        "train"
+      ]
+    }
+  ],
+  "review_reason_counts": {
+    "Item record has not been checked in the bounded acquisition run": 1399,
+    "evidence review incomplete": 193,
+    "Previously acquired or inspected item no longer matches the current bibliographic evidence": 182,
+    "text contributor term unresolved": 56,
+    "unreviewed textual contributors": 29,
+    "author death-year evidence disagrees": 28,
+    "missing contributor_basis": 27,
+    "missing rights_basis": 27,
+    "missing version_basis": 27,
+    "missing/invalid contributor_evidence_url": 27,
+    "missing/invalid uk_rights_evidence_url": 27,
+    "missing/invalid version_evidence_url": 27,
+    "PG creator identity/count mismatch": 26,
+    "unresolved transcription note boundaries": 22,
+    "unresolved digital edition note or link": 16,
+    "version needs editorial review": 3,
+    "missing, reversed or multiple Gutenberg START/END boundaries": 2,
+    "empty extraction, replacement character or unexpected control character": 2,
+    "English catalogue evidence required": 1,
+    "English original or dated translator evidence required": 1,
+    "historical publication unverified": 1,
+    "missing/invalid language_evidence_url": 1,
+    "unverified textual contributor in front matter: translation by meddling with its English; for the most toothsome thing": 1,
+    "UK perpetual royalty review: Copyright, Designs and Patents Act 1988, Schedule 6": 1,
+    "unverified textual contributor in front matter: EDITED BY ERNEST RHYS": 1,
+    "separately credited editorial text: Harriet Ritvo": 1,
+    "cannot decode source as utf-8-sig": 1,
+    "cannot decode source as utf-8": 1,
+    "unverified textual contributor in front matter: WITH INTRODUCTION BY EVA S. DOWLING, A. Ph. D.": 1,
+    "unverified textual contributor in front matter: EDITED BY J. REYNOLDS GREEN, D.Sc.": 1,
+    "unverified textual contributor in front matter: With an Introduction by Edward K. Eckert": 1
+  },
+  "candidate_outcomes": {
+    "review": 1693,
+    "reserve": 164,
+    "selected": 140,
+    "duplicate": 6,
+    "excluded": 7,
+    "unavailable": 3
+  },
+  "unfulfilled_inclusions": {},
+  "unmatched_overrides": [],
+  "acquisition_errors": {
+    "no linked plain text or generated HTML in the mirror directory": 5
+  },
+  "retained_clean_documents": 310,
+  "retained_clean_characters_before_dedup": 151183419,
+  "output_sha256": {
+    "corpus.jsonl": "7b1470a8c98481865dbc3d9674c15dad39eb213a5b961b66a402a4ca979ba56e",
+    "train.jsonl": "79dcfe790e3369c5dcbdcdb69aa72e088a30ea2ed611055deb9d38544b31595b",
+    "validation.jsonl": "d2443706d727f985d5b46ea49425ed0781fc92b68fd6d46c0efdf74103a81e40",
+    "test.jsonl": "9d52afe862f334f617e77e6874ad655ccb96535c1c4cc3aa093826fbef2979d4",
+    "selected_manifest.csv": "630903619a8eab0a3664cd0c05787ae9cb5cc800d2187d3d2559588e774ec8fb",
+    "split_manifest.csv": "68838c82ba169320adc997939e3508db735cd5f8d8a7242c07d68ed13ee542ac"
+  },
+  "source_status": {
+    "Project Gutenberg": {
+      "status": "working",
+      "detail": "2,011 candidate records, 505 retained raw documents and 5 item acquisition errors in this build."
+    },
+    "Project Gutenberg Australia": {
+      "status": "working",
+      "detail": "1 candidate records, 1 retained raw documents and 0 item acquisition errors in this build."
+    },
+    "Faded Page": {
+      "status": "discovered",
+      "detail": "Linked TXT returned the record HTML on the direct automated request. Edition and text boundaries unresolved."
+    },
+    "DigitalNZ": {
+      "status": "discovery only",
+      "detail": "Developer landing page returned an empty 202 response in the access check. No API integration."
+    },
+    "NZETC": {
+      "status": "unavailable for automatic use",
+      "detail": "Web archive collection with item-specific permissions. No eligible text route verified."
+    }
+  },
+  "validation": {
+    "integrity_valid": true,
+    "build_id": "full-b5da4f869f5b1869",
+    "raw_documents_verified": 506,
+    "catalogue_and_item_metadata_files_verified": 613,
+    "selected_documents_verified": 140,
+    "characters": {
+      "corpus": 49802774,
+      "train": 44741185,
+      "validation": 2528648,
+      "test": 2532941
+    },
+    "export_separator_characters": {
+      "corpus": 278,
+      "train": 248,
+      "validation": 14,
+      "test": 12
+    }
+  },
+  "configuration": {
+    "build": {
+      "group_authors": true,
+      "max_chars": 51000000,
+      "min_chars": 49000000,
+      "rights_year": 2026,
+      "seed": 42,
+      "split_tolerance_pp": 2,
+      "target_chars": 50000000,
+      "tolerance_pp": 2,
+      "year_max": 1945,
+      "year_min": 1800
+    },
+    "regions": {
+      "AU": 0.1,
+      "CA": 0.12,
+      "NZ": 0.08,
+      "UK": 0.4,
+      "US": 0.3
+    },
+    "sources": {
+      "delay_seconds": 0.5,
+      "max_candidates": 1000,
+      "max_document_bytes": 14000000,
+      "max_documents": 360,
+      "regional": true,
+      "timeout_seconds": 45,
+      "workers": 4
+    },
+    "splits": {
+      "test": 0.05,
+      "train": 0.9,
+      "validation": 0.05
+    },
+    "topics": {
+      "essays_philosophy_economics_society": 0.06,
+      "fiction": 0.3,
+      "history": 0.16,
+      "letters_diaries_memoirs": 0.14,
+      "practical_technical": 0.04,
+      "science_natural_history": 0.2,
+      "travel_exploration": 0.1
+    }
+  },
+  "input_fingerprints": {
+    "cleaning_version": "6",
+    "config_sha256": "3e81e67d00fc56bba285d62bdc4d41efdee0ca03a46c3c1d9436d64178ce7908",
+    "manifest_sha256": {
+      "data/candidates.csv": "56e31659a96f0c6638d562b99ce9ed8e5df5d6461fafd6dfcbc18f16eae2e3c9",
+      "manifests/nz_evidence.csv": "2ba6b9a05f1ebdbc4591d21f651f60f42cc5ee54e9246f319ece143e4aa2cc62",
+      "manifests/overrides.csv": "e934e455bac880a12fd81f9ba7f79d78bc2839357172b7f7f131cef33a78f1c1",
+      "manifests/work_evidence.csv": "924c7b7df086913541d93589eee50323860b83f5e4c55c04229575b09b72f82e"
+    },
+    "max_documents": null,
+    "raw_sha256": {
+      "pg-10002": "d19d7c7dae76293dfe205670fe815959f5b597ead015b4a6996b41120bf2bb76",
+      "pg-10005": "b1e7b4f16723e000f1bccf6207c3dda698a8a1149d317d46f3c03fbc2c386293",
+      "pg-10059": "0af8e8350f9c1302a9319ff3b7eb4027c30552486f08d596b12f25628247e584",
+      "pg-10060": "f05bbba837bdf6de728c849826f6ecba1952e68de7354887b29f6e5c3e62cb87",
+      "pg-10084": "bc2de573fe77fc503d77ac9c03e11890b1d86e414a4e4d8f7c0821a591e589bb",
+      "pg-10095": "37a18156856585628b8d70e41c087c2fd572e405c2b5273de7aabe99e227edbd",
+      "pg-10118": "4f822fe6b6a19a6e599989528e8b580f5759d6360a2eca3fa5a05635916f5010",
+      "pg-10123": "f61b90ae1b6e15830307cdca84eaf97786cbb135c83671f8483a096f8810f09b",
+      "pg-10124": "fb856df63f87fd7531f89fbac02eee734cf1b2c95921c117b215e818664c7f2d",
+      "pg-1013": "960bc5dc4af4ad74589bf2b1178c3629e2610a4ae52eb9a462dc92c651db2348",
+      "pg-10149": "944f72554740caa67f594c50b861254b91b752320cce22ae84a3c884d61542a7",
+      "pg-1015": "d86dfbe156a82e0eaa1010952464ddf3136c70c642e04da37d2a89339a7e311a",
+      "pg-10165": "b422d159392141965025ede33c338c552b8868001ebfe5c77603904e451426a4",
+      "pg-10217": "361be5b89438e29a943392d6161cb6b9dfb28382da4f7dc75305e466c5a4d09a",
+      "pg-1022": "af55b92fafd61591dd0d5cbd4790b74bd7703a7d78b32f0e540ce60ae58e78fb",
+      "pg-1023": "0313655355bf9f900c6dde9211d4cc2d48a8a71ea95477da4a3e88ffd45e7496",
+      "pg-1027": "a3bde68e7080ed9c1042c05163bdfbcc4c47ce283ae3b9a9110ac9c551c0421f",
+      "pg-1029": "5da9c8c64ef1f5cde98b2a9bdf827cf2b66522ace4a07483b609dc1f962d9377",
+      "pg-10345": "b9f4e3978058fe7b3777a2d595373bbe91e306e4f639e263e2ba5ebd630160c2",
+      "pg-10359": "9fdc4514bb5588cdcc12ac916334d04ff22e85219460066c0914e13ac07d817c",
+      "pg-1036": "7b33751486ee67725d452e29446d6d740cb37f704105a26b0d97ac75cff0ee88",
+      "pg-10363": "ab234ddcd99d1e3b7f16f605d48af11fe4a5765e37075c2a9be7fc92448d1b68",
+      "pg-10418": "6bbaf73e44327a83256e58a34c96213e5b092f1b5278e2c86766454604282f74",
+      "pg-10429": "c52bfc55cb3ba350f173b42c520c3ea5020fd206647cfd241f351d0f4ff89ae1",
+      "pg-10432": "d7db0da6ce465ebdfc1b5997dfc3f7fa22560650978a581ae5d53db4dbd5ca38",
+      "pg-10446": "dc122d28fb422fa60ac94156368bdd48dc8a2e6ae183014d49a659c22a9c5da3",
+      "pg-1046": "a28424efc3dabc6369023904294ecf9ebc25218c89e67906f550e5b08e5b320f",
+      "pg-10468": "7d677f6489418994896d0190557751c1af0288e2b5da623112ff552faeeaf1c7",
+      "pg-1051": "5dc504b43ae2382f7635e1f7fd985a984a4741a7efc6d5ba5da942f8a2eaea0b",
+      "pg-10540": "f0db45a7cc875723323f5156c8aede4b1062bce2eb6bd8ef1a10a0a3e8c6fe50",
+      "pg-10542": "03c1a91f0a4688deb43ad493eb96bff0d490117970643d4b53a676bbee641951",
+      "pg-10556": "085ea0b89ae193fcea0b74cc025dc6183b419ad670c8c60fb050c364a9e81135",
+      "pg-1059": "ca9324a0fd3c5229135c351dad218dc61a72427d4e58a8fa21f933d35b61c6bc",
+      "pg-106": "79589ef0126f0ba196900f2eb8e91f130ab91aedc8e1dc8e2c3dd5a71b2d54c6",
+      "pg-1064": "bd478641e749e392204928b368eebec179647de5dc178908a5941462b279cd2b",
+      "pg-10658": "ddbd184d358e9f7662f7a0bad9402e122af7437970018a361f33206e85204c56",
+      "pg-10662": "27261db397183430f8b81871b4ac11c171a05b579d3494ede304119f2f145488",
+      "pg-10669": "fad963a9b43d0e3bca7a4dc96d9fd2f619a83ab2e9a19aa53f87cd1efb39dbe1",
+      "pg-107": "155f617e301b7e6561eda781d550513bb13066e3b33e22c95f6a75efb8041043",
+      "pg-10736": "85ef34a6c0c09e5dd4e15709649165958c51356624cb8cd7019345c0f12c2c3e",
+      "pg-1074": "2b56760e95b0a3f0cd512dd9eeb2ac88012fa28a11afd345d59ef166c791c097",
+      "pg-10743": "993a31e3d0e94ffc54cd630a67dfa01520693afc50a6a64deb10437932d79e36",
+      "pg-1076": "2664c1a88cd18f3f1dd2c8d95b189038e68bdeefbe044dec230a06b8f118161a",
+      "pg-10760": "9cd7945b09046a006c602fe868909b48ad7b9c3df9f581d395f56cb3a4ef4580",
+      "pg-10762": "b7ff6543c712ae495dd069825a85b40fbefd85011d8900e189bff286108d7b4f",
+      "pg-108": "63c93548e1d5678f9e5027ae72b9a6bdcde971d61f5569e721b3dfeb961312b2",
+      "pg-10832": "3623ea6209e1fc1f1e60f3e13bb68600cb84e8bb089706f7e7d042c68bb59262",
+      "pg-1086": "45460752f05d2a87a20d17ff716ac372d8c384a53ad11b110f88c3f6d7e87a14",
+      "pg-10892": "b24a37f21b3a722587d9f31b53a6e47c665ec49faf43100d2f96df015c2278da",
+      "pg-10897": "35a336bd625efb3fdb37395e483789887dce11c79336d8671bf4f08f6bf7d311",
+      "pg-10911": "ab3af420997c2b45f11ced6b6c532dec1c486dbc7c0619ca7ab0230817ecc7b2",
+      "pg-10943": "1f45b1a227068fdc8fd07a04c49484b6783ce7d0f791ce7c012c9df73301cab0",
+      "pg-10966": "229243244b4db6ba8a183682f60dad7f790c61532d9f83c4562f8aa9ea4a2644",
+      "pg-1098": "569afa9954cd114065a1df2b6b72a261412e3b58ec6a08b4fad9ca4553face9a",
+      "pg-110": "b26f6a144f85398484dda6b2a4b482e6388d5bb5f9c5a0a05f2b1168e5c4a05c",
+      "pg-11051": "3658792520bd9c4bc8709f707dd8228d88b3cef39fbaef2464802b2ca86cd2b3",
+      "pg-11052": "738b03cb6c28999201d0273a7653ebabaa30df08f7cd78a6fc9eef22170a7a33",
+      "pg-111": "e0ffc6be6b700a63f8fc0201b27cde7ce5eb041c3d2902c8b30c53c2ec60a989",
+      "pg-11128": "38decaea76f9b868ea4732dc9c1aa67001390ff29b7ef2c7bf21e4d9b1b693af",
+      "pg-11224": "0b4c7191e7759753c064c13a90a694bc230486e5b5dc39c01ade22fee6a5e5e5",
+      "pg-11228": "6e523b16f996a2260ea5ab123bbd378138b314cf8467dcd8ff5f09499254419b",
+      "pg-11229": "cff741ec0e74151bd2fc17f791585c7a6a9d37fdb9ab7e2ade6960497c635cf7",
+      "pg-11243": "80bdaa774c80d90f4e80322c080cac08b65264be1492a039bed2af80ceb426a4",
+      "pg-11247": "095923fd4cfb00bf0ee3d07270eee3bd3c34125cca6761e75021f845d1a71bd6",
+      "pg-11372": "c0022c0cf313943f3eb81d9648f686a6e95dbbb6bf2932ef0daf25628f32554c",
+      "pg-1138": "c9481b2cdd558323419356d9236275a0953b5f8daa2178d81b7cf44b8f90ee78",
+      "pg-1140": "2a9269d2d7341fcffeac2ef0f9e3a38bc42abc947d91b377af36c5c9c0fc4820",
+      "pg-11400": "a0ae82a6346971b23b2cc96c651ee073ecc573da9f4de517846922775ae007c6",
+      "pg-11413": "27388d00474960684c41ba1252eb3f687a7af98f32f4a7659f63b8a439ea25ae",
+      "pg-11438": "f1c01ef3929b4d11bbf4b99ded66f98e1bc9b776df7c3db87fb7137087c0297f",
+      "pg-1145": "abdab6ed699a614ad5bc19a072a82efcd1ce49f7a49ac5146163f6445c6c2306",
+      "pg-11493": "fde901b3223860ce6b4fee9a120397f263846db2fd11dcf0b2754357791f2d65",
+      "pg-11505": "3e4e1739ad221c92fcd8056cfacf2526eedeb055127b4876f1b227dfd77aab53",
+      "pg-11521": "68171394401af50be788982243cf735ae58764a3496654d337ac14f49c3b493d",
+      "pg-1153": "85227b2d7efada1a3a064f9850c15739b20ca815007ae79ce29b3d909586482e",
+      "pg-1154": "9d7e4eaec6566eeaf6e8242ba74bb725048dc344aa8ea8d39ea46bbe5657e32f",
+      "pg-1156": "6c774689ea5152b7ab1ca986a18104c20ae72dc388c12bbfa8780f29c5b647d7",
+      "pg-11565": "c71d3fc82e41e1194394dde88f94d4c26ad170027ea566708617542e2d777698",
+      "pg-1158": "de29ce04bf35359ce3d69a8c9a1bd382f29b42b122c095293601669ca6d4cdbc",
+      "pg-1160": "5f430d204f74eb13b3dbf7fb1bc7f660332e1509ba079da00aececc34b18e859",
+      "pg-11620": "83e5b9cf50129f93e6d448059618604f9f3cd5b781491954fa888fceca7fac2d",
+      "pg-11626": "e3bb3174bf8867d008caeecca570756318f16d72e11316e70bcf158ad416e9c8",
+      "pg-1163": "718d5790be793020e81b26a629cbdffc6c2d06a853c510f1ab65143732bd26bf",
+      "pg-11640": "d0856856e34eb96519b133d99376095d8d3ea7ce6d706f81da8497012089245a",
+      "pg-11668": "6d2ec36f034268c73c85af4ff027dc5637638d29a3bf934da78f66b4784b61b3",
+      "pg-11696": "5df7b197751b235a767ad211304b45fbcfd1af6b6570c6deeb69002dc8ae8c64",
+      "pg-11869": "cb9706a855ee0c374c115e0adf547699bd2f8c7432fe90fdaca81c9bfc2f5316",
+      "pg-1187": "42c52496f05bf9e92398368fae16c957ec1c8709bcec01bcbb477d37bde7bc00",
+      "pg-11870": "8a8801ba787cc9d84f26307698546621581bc31f7f2c108d35ed8cf49a6499b3",
+      "pg-119": "39a7dfe3a043436061e0a3b2fd3c4bbd10319a3c2cc9ab8fd356de44b8bca86c",
+      "pg-11913": "07f09f3012b87f0a3b17d47907dc7064125c4ab7703b24194d245253dcedd428",
+      "pg-12": "4b4733954ef0679d22ee1b811ed6f5553a39bb53bd0da40cc8e6e7f95de15ea5",
+      "pg-120": "f65a6168abcaaa8d31d1aa31992edb8bb21e54210b7b755c44cfb5e5ee90a5c6",
+      "pg-12004": "d4ba384c93d843a7104e43c10ebfdc0ac03b0f63c09707afd64a97c45d0ec63a",
+      "pg-1207": "3abdf04167db921773d40e127e6a4868f17736d82202d15b936ffe6c7988e301",
+      "pg-12083": "d2634d5a5ba5ace34d96a54c5fe2c580342121f51af63f72f21d43ba3f1a139d",
+      "pg-12103": "dbc9ca56094e257569ab09f02892d2d7f9d818cc31a85c5751410322cb85562a",
+      "pg-1213": "8172a4fe8a52574667cb40aac74727e95bc4935f2cdd75ea07f775652a7323c3",
+      "pg-12163": "d3c9e0522e7d4d3b1c4648eae6777e4065f73f7e4e551eb1e15b32888746ee37",
+      "pg-12175": "0c65ef8532a83224b633c0d87f11c1a508cfe3766c5682e7c1bb4d4655d01929",
+      "pg-12187": "bdfef2312a1a426cacac3b1b2b0fba81f8039784e9b2161152f73579923d31ba",
+      "pg-122": "03c4e1372f8cc2ccaf91909646431de5532acf12794e4c4524073fd8f9ac5e2f",
+      "pg-12245": "af4e0cc5dcf7835291300455ecf9b88d54d865b20378834eba592507f0dbfb2b",
+      "pg-12265": "c3c9b5577a389380c428558bef51a78d10c3fe3d34c40e22b260bf38bcb04170",
+      "pg-1227": "7085913355b198f8484679d9380337a86e54258fe1f80da1ae34bdcad258e64b",
+      "pg-12280": "a5f816753cd739ccf2567112690b29823918952d4c0caec43abc311e03b2b096",
+      "pg-12299": "f8cdcf2a69c6adfd829bfcffdaf27623223630204642908cc8ffb9252a08e049",
+      "pg-123": "fc21ffd9b6743ab0df8e3e9406f4cb1ae0244eb93ec1267ecc0545214a77ab56",
+      "pg-1231": "04c40268352840676a957ca4d0c8ecc6d7cf44d6e609ccbc178eff65a2ffdbd7",
+      "pg-12346": "753b38c3cd2148f681ee66de455f361173a18ab6b4cfdbef2aa05ef4f59b24ba",
+      "pg-12366": "e2c7d218185d8879e6c8777d90fbdfa48c2679c995eff0ba2bc241d19e6e6478",
+      "pg-12411": "771b1c0eeef76495fedd39dc16d69230aae7ae1d47b957d1f1c40dc0aa304d44",
+      "pg-12439": "842299c952a2762844a0d6637a72453fab509ec43861058d90dec778b06cc982",
+      "pg-1245": "9d3e76264aa6491a14834244385e092d615661947913f9bb050c354b9e1e2bef",
+      "pg-12450": "fb9b5a19d99bf304ac951c1291b15413badbb7e13718d180c9aa5d5db3e1244e",
+      "pg-12476": "18453920f62c700ada9485cda973222df6a33e0662459c2341dab72088588bc0",
+      "pg-12555": "c15d66348ad5945e7b24309eea652032bd15e84903147d375e6f95542bb54014",
+      "pg-126": "021c3975b059e0fa566230fcfed589887b96a88b9f935bb9a1b233fe61a3e192",
+      "pg-1263": "5a042751651fd199a11e1667491fee3be501d2e24b8fdfcea4ac2ed0ef703a3a",
+      "pg-12654": "33968e28b8321e82c0cbbceeca0469c476b5c3fb125aa93b2d32becec91c62c0",
+      "pg-1266": "88910c1956d1af52ae2158cb2ea3810e5de939d5105b5e47608b4e1666a66bd8",
+      "pg-1269": "bd01ca69bf67e7cb2708676caf525894e85fbdb07f24cec9eb4076d37ed09e05",
+      "pg-12750": "1a0796ccc9ea65d9432f0363010a07def81a3ad4892ed48e059613e966f38baf",
+      "pg-12803": "c1aa4b7bb54037bc1d1217b385508519834c7742d92bfa69e789d6cbe76dbb05",
+      "pg-12826": "e797a3d3afd2132fc0539fcbad6125dcb3b0cb009dad81d7d0fc5a5f6d4fee1c",
+      "pg-12859": "032dedc5eff880252b38ad208a4b9a70131ad74a204cee75d00f103867bbab3d",
+      "pg-12868": "c7f921c35d6d5a4e145d038d4099bef1ac20586af4517dc60b23328810d81fb8",
+      "pg-12891": "a0429374a060ce6e856ee9d9c30f8772bdb6c7cf89102c97e7a1b535ec4df32c",
+      "pg-12923": "275d08789b9c5f4b0c484f55dc2dc5d1a28fb1372cb0f433f755518838e13663",
+      "pg-12929": "3a67d712b2003ff03eb9b7e908725ac1ae9e8436e6351f6a283c390771414860",
+      "pg-12954": "34f2f61d39b48c9fe3516449e182ffd15ebe1acc0b97e481a07a1b10765ecd06",
+      "pg-1298": "58d255bcefbc126a7fea26319f998055b17e1de6b2df16124bea02fd998d7bce",
+      "pg-130": "0efecf8685202c3a7d1f5e5a24d3506b6a92113d7a327918c7b0c4fa2cf9f1e9",
+      "pg-1300": "290fc69b553341a5958dd5f2f674c2ac3842026140e25da0463487c2e03d8346",
+      "pg-1301": "7666ee2700f95463d77d000de21c5b81c6053d7614d5b274ac83cffc58b925ae",
+      "pg-13110": "40b5b620ed35452754b4ac34c3247e841ff17c2a614f9eab3d8c648b7d79f510",
+      "pg-13121": "e58227c7449d27f0420b88d1651f1ffb459f66fb1716460e3b24791e0d3d606d",
+      "pg-1313": "cf7c4bfbc72a83d9708c34d00a4d9a3ca7a8cc32644c334b7274c6588c664ca0",
+      "pg-13152": "dab19488b826644a7538c698868f9312e9cadcf979dc98555402f2e96523cdb3",
+      "pg-133": "786c7aa2551525246ea9a734a1103657962abf250a2e729dbfe008c58c22e943",
+      "pg-13434": "14dd9cd4d6d0e8195320127448012a07676d45be62f61ed9853cbe29bde31423",
+      "pg-13501": "0e2b6a1449eb089f73a32e3928784d2abab4d474af147d703274ac4be6505554",
+      "pg-1366": "e3565aef8709335fbf4effc847bc6830d6af5de36c36f36167f2fa989d2afa1f",
+      "pg-1368": "f983ba01caba820df5aaffd3338736a8082be5e7e7b8404dbc0876c0a0b54912",
+      "pg-13707": "87eb523450515cf249b2ea3de8d276c019c3fc06b1cf3a50f12aa9fb739e7201",
+      "pg-13728": "be937660f06a77fa230fc6cf641c82f4bf8492ee866eb008fda7d3d2ccec71fc",
+      "pg-1377": "7f1598a330816284b2986f40cdf638e689647bc22bdb0bcb6401689fc129d5d4",
+      "pg-13782": "16f64aadf4372ba159ac9cd8dbcf24b481382deee1561e47d7abf2974d4625ed",
+      "pg-13799": "73f793f137a17fefa9720ba61ab7f078f1a8f96d042d90f6611a2214b6f5e2f2",
+      "pg-1387": "bf4c15428c69a38351a7a2e9f896dadff01bb299a5288cfbc9e0fecf6bdd7fe3",
+      "pg-139": "81e4af1169b86dc18fccf2da882d28041692243360ebae929252cd4945a04344",
+      "pg-13969": "52959b06f8c33a9cd89a18d4fe17130c1ba448b0b0e90d301cac6a7aebb1e33b",
+      "pg-13985": "57e61f4c7d60987accec8b2d8840c1aed2cd92686fb22bddb36e25881d6b7bf7",
+      "pg-1400": "48dd8f292e68ff2856675a60b48bcd80b1ebe6ed58ac3e6f91a2bb2400f1e345",
+      "pg-14001": "6248e4565ce7e4fa5bc468330ad6dda93910912a1376071ee2e1c1e4796010ea",
+      "pg-1401": "6d4b1b734e585428c1c20a93dbc75ba23216d7fba7fbd229e57f676c8b8703c8",
+      "pg-14021": "fda243126385e8095846ea5be7cb61da8bbe533b97a8739220688438a1f5c386",
+      "pg-14060": "0bbef57bc81de3de56e5570bb952d936125ec9bb06c5b99701c63f427046f634",
+      "pg-14079": "ece7bf861042500dbdc318cd76fcfcb7b78f96515b96fe34db8dd8ac885be1be",
+      "pg-14107": "1f0749b1c344faaa7c04beb98cfb64ea33bda4e62d886390349a90905c311744",
+      "pg-14126": "cdbcdc9094d112b9f16458c48a6648c294f5ebb85df7087f7c488083cc64fe6b",
+      "pg-14228": "dbc040bc3c933b24fc52f8276aa637774f9dee8eb3e326f677c84183ca43ed14",
+      "pg-14279": "be6943cc01a1e47632cd1a77bb2c93594b0699884445f9b0e58969f3856989d8",
+      "pg-1429": "816693e29659203f8f71fc562f44c9a7871b4aba2c7f2de7237b804f7a5b0e35",
+      "pg-14355": "fd6f595baec2ce357ab626f12d064cf0e0c33e4cfd035314f8900e5f02eb3ce9",
+      "pg-14396": "0a2f65517423bb200169c8542a6244cfbc995597d98bb37b72230322f17fc69d",
+      "pg-14409": "3bd5b07dc85b86049d38055782df93503150fb289398d790762aaf5b641bee20",
+      "pg-1449": "7313649b348c19368cd14512f963f431e29cf09d7281f7198da663008558d749",
+      "pg-14645": "5107a8e6f353d950cf4333ff1d6b5d87de427fb7b31ff31ab649a2bf74b876ab",
+      "pg-14654": "6e523cc076b8b05669cc4f780a94335603fe6a1a3c367ea6b95796989430f55b",
+      "pg-14658": "9c421bb814844884a420e46e627275a549e9784af4e87c34f9d94a8334717409",
+      "pg-14671": "fc76cb0620a6bbe4b8bcbff5711b1c3d015b80c46d1e06f37334a6e8d7a117a3",
+      "pg-14672": "387dd237599035b7316640d57e4d5c38b91eafbf3ab95a68c21995ebe85c2177",
+      "pg-1472": "db6d4f252434fbc4d912d0d999f6ec5df8d34eb376cea2cfc432411a37c850de",
+      "pg-14992": "4cdb53eb515dcfd386b076d6330b2a44d411d15d07e9654a67e5cc0510f34079",
+      "pg-15099": "ae8bab43823510234abf6fe8b0156767dd5707e967afee6d9439f28ba62502af",
+      "pg-15253": "044d2c2a4e775ec3cf85c95d0fe5bafba09615a5e955740b58d45801c64d58d0",
+      "pg-154": "c8ca6defc66cc7916db40284b703606a93bad687e15a066c5b575743cd24bd15",
+      "pg-15408": "6c8c74cb2d3a85430b982f5297594f50b0a1aec6c1559e36289b0f04d74a1358",
+      "pg-15422": "cf7a2711db55c3a54832a2301ec698efdaafe97aedce88cbabd96f24d93f2797",
+      "pg-15454": "6901f37859e49cda97afb2ee18aaedf2a4f1ecee2bc0984a01a42cfb36bcf207",
+      "pg-15687": "a5442ad72b31ba39687f0bcfba1484753dbc1511e869c8918b35bfc888c65711",
+      "pg-157": "236adc98e73a9016879ae1655ac1c83aa324bfa9f42f4d1b7d6a825f741d0cee",
+      "pg-15859": "3fbe82253bdc7168214a128505ae61c1f53b693f9c3b182055961fd66982e1ec",
+      "pg-15867": "24151bad5dbb8712387e67457254cb88f9f9e0d6efddaca5ffb76634e3264a7c",
+      "pg-15947": "b73af22c0af9b14abbc25ec25529f7b9f28d0d07794acdd053e84ac6192b512c",
+      "pg-1595": "fe6020c79a4a443540fc2282aefb3f1bd5aa44e923298f9ca2cd0bb54cddc355",
+      "pg-1596": "2e4e05aa290433c9fcf04a49234953082fe5052a56fd840551f3f5db840f91ea",
+      "pg-1607": "9bb9937e9083b07f1ca3c7c0fcb57fe7443a51877b0c62c9d9c1df26b35bec6b",
+      "pg-16077": "65c91ee294cac205096005801b03ac6712c6aa690004188d833d6f42dcfabbcf",
+      "pg-16096": "f97d99d19a0ca8a6c1e9ef0044a997929c1e474f424a0e93b5de9b795c0910cf",
+      "pg-1611": "8d0e8dc22caef51dce235ef6495f2831cdd0746090510e354146b50d200684ad",
+      "pg-16257": "daaa387e8a06ca78aa6b9881bee8554c55f2431f0be4f7409dd03fb5984ee30d",
+      "pg-16410": "693896f8fb71d3720108b4531e4da5d7fbacda2210a755b4182567ca8384902e",
+      "pg-1646": "fecbb7874bff5175573be8cfc8e28c521594628ff4db14a253e7a2088f588753",
+      "pg-16476": "98847ad2e4cab94b67a26ba709ed6a6a8c1aadbf1e3821e3e996c8ae781e51b2",
+      "pg-16769": "af42e2444ca5651aee7f2d81e02a8dbcd5eb105c8a68d99b46f05984bd9c448c",
+      "pg-1688": "31585ed4bb6bd34bb21b7809b93a4d2655bb471e3b4005b495fb42f9d5c3c269",
+      "pg-1717": "8b701f908c723742ab07fc66c5059481e42687fc9a75409a31ea2afe251de233",
+      "pg-17195": "413e21942f4afb40db80451c6a97da339670c9a81e4fbfb7ecc7ce75642e6882",
+      "pg-17366": "7ff33344154790ef6d8e7903ce86dd44f71a9858fd81f804394e94dd9c731eae",
+      "pg-17748": "6177d1f3a474671cb29549212d8ee1668fe1f5da2f7323eef48daa85efb642f6",
+      "pg-18039": "29aee93605f8893641e3bee22232927f4b6c2f8c501e174bc23791140bb9fc01",
+      "pg-18335": "45508a0dc080ce61d9734474b41f1ae0bacce4def6cf80de0c94461f8e38dd11",
+      "pg-18835": "bdd78461998c5d431ba676d940dd635ec7eb0af550c67096b5ba446a7417f0d9",
+      "pg-19192": "6bb8fae8e92bc74de82701197aba669e539439eebf8d0ea646720760f12a71db",
+      "pg-19408": "ab3157f0ddcde8b57447370e18b69fd722e3792721b80d0b6099fb94a970d4c2",
+      "pg-19447": "609e7c41cc11afb6b16b349eabdbf5f41ce34fc45b5b05dc7b8c739407abd727",
+      "pg-19905": "b7a19771c523ab01c91166eb2d59b8ae4e53609064825be285676f20138b0cca",
+      "pg-201": "be12040e498e7c32d2e8d61e312c6e2eab026d7746e3ee29e7492f6bd49bbcfc",
+      "pg-20168": "28962893223339205fc41b8c2f721bbd0978e4800f6031739728f1b917d9c535",
+      "pg-2024": "5ad387bedba06fc36c8b6f47b9ab3047d561db6ee51bf62d7c61edaa16e7adb9",
+      "pg-20386": "e48ae7f1902c4c9f3efe4536504e1455cdf24fe3f835791f60f1d62759a60fb9",
+      "pg-20390": "170da9b3fd8d310d508d1770365ae22125a38b3355bb7687e5ebf902e00245b9",
+      "pg-2040": "998c7b84e1729b79e2bdc0c0955b488f6e69157ef6916edeff319fcf6322db3e",
+      "pg-20426": "7484148a2fe39de9ac7aeb33155ccf2abcf03a689d8fe7040596937d33aaf58b",
+      "pg-20556": "1666f128c97e45d0f998fe7cf58f6a4f6c4afa29bbcf964a5c7db1c28c23c55a",
+      "pg-20667": "cd63dafc97d3c3be797e39365010136d5f3868e04f4fc7cbb26c1e31a18e173d",
+      "pg-20696": "433d22983fd8c20a518cfe3a032d3a7c883b5d6dfa607cc068da30a590b12f51",
+      "pg-20751": "baa0a3dbcc9c3f75e8784caa1bb131efd77e329916423554697a4e136f5183a0",
+      "pg-2076": "ced894d3f17d8acb14efdacd7e7182c4601b682c48d11fb299d8ab7b94550c5a",
+      "pg-20818": "78dd415a09ba6bdaf24ee202c0876d5032728a8ad70722a238790aa8e544ddb0",
+      "pg-20885": "38d820bb3954f8c31a56fadaa99668a4695d3f760ed04e940c694423dee8b755",
+      "pg-21007": "c1533787b119c90a09f03a5e93eab0e3f3ac2b636c356c042588465df04c59f9",
+      "pg-2101": "8e626f8fba6a0e91b8d61be3bf081fb09f345d9fce886b8902894abb7448c0b4",
+      "pg-2102": "27c3c67a48cf50afe40082c94c007fa9577ec5af423a60a19fae94ba82eed451",
+      "pg-2103": "a4003e655e8ed715a74f606b8210ca74651a9ea063745089a6aaf578208b69c2",
+      "pg-2104": "f32f213833957ed7d05d11bbd00b15d2763c28da5596d940abf10ad76601d0f1",
+      "pg-2105": "edabda6c93701f42e51336811061447626289e0e6f76bf82e5d8160439acd0c6",
+      "pg-2106": "da95c45f246b717a029f561f70bcb5f8fb26583699c11ebf4208de12559ec9d0",
+      "pg-2107": "d3c700c2843b07f90272199a7da1171caeba319e7fc697f2d57cc4fdedcea347",
+      "pg-2108": "78818b8b19081867e5854478f143d3df22431f36ab3cdfc2e38e3c2692d43fe8",
+      "pg-2109": "2b57f103f82847df31c8d56f6f6297b7a08680a778f4090976f3071ed65a9c50",
+      "pg-2110": "569073c873a052c8015f01e242c4b3e26829d5e44d739434a4610aed1fb82ebd",
+      "pg-2111": "b1715a3d6995aa9a16b42c2b5d79fc1970d91ec37d5de5a68e70af681b1ceb3c",
+      "pg-2112": "302c740ac3901fc86e3153293c46050251a07af4a02fd09f814dab60d6080383",
+      "pg-2113": "9013943df1029044bd261ef9645d8d0bf2553f3d4e149ca262c8bd3d4661b84d",
+      "pg-2114": "c3c119abcbec44117601ff887dba4839275b387e659767694be1bcedf2dc903a",
+      "pg-2115": "ee482dffa8d1bd1adc3a0825c7cd547fa20af8316f0cddc6881120cfab06da6c",
+      "pg-2116": "f5c44623801cf3d84bc14ebc695b38cfee734e2c819b43fea1579d14af43d726",
+      "pg-2117": "2e10fed1b84c53846d3086411ca6b780fc37ada7b59b79a7a447d82e278a1e52",
+      "pg-2118": "6fdf2cd450d3a0a7196be7977fb1c4bd17c2dd4aafb3d84a5856352dd9a3c709",
+      "pg-2119": "8a424cdb083f19f45fcc75b1910d1730f4ff93e385063ab1bd2a15cd68db2df6",
+      "pg-2120": "b00e604e4826f8c5a78bb97c3779d3f221d6472d5c0451da8363f207f8e93a12",
+      "pg-2121": "b51367344e60b9a29edef68b6418aea70dd21326a278df1091c02016354f1b13",
+      "pg-2122": "56f38df40e4524c57bf2661d1042bdd230ba07a3011672f1ed87ad72bf4d014d",
+      "pg-21254": "dd1a760dce83c20ca27471e5b0bf9d0581d2d74be47848264154188e1cc29beb",
+      "pg-2134": "fa0ccfb5c7bc413c417cf2239596d6c3d96830fc77cd861663df6db6a74f2516",
+      "pg-21500": "bf988fb4ce72d3582eea14d2d96d110400a523634a8250bf026fdb55aaaadaea",
+      "pg-2156": "0ad41136c56e210771f01e1ea3ec0a80a10282bef50fac9422ddcb00e44f278f",
+      "pg-21640": "ca3bb34f9ebe85621060d658ae1daa8144fbf5b93abc34396a6f1d7b53f73da7",
+      "pg-21659": "983a6717439fa6bb0fc266a3550b584c3d46e01818b9a160b62a0a233c8673ee",
+      "pg-2184": "396163a463c39077160fc080a7943b198928944a8960773e9bddf0ef8b07848e",
+      "pg-22101": "837596d727b56aa415ada4f51043cca624cbd4cb7fc9cb60b6eda0a08dea2743",
+      "pg-22472": "3b8458afb29beeb00b162754e57ecba1ca695a5933fb7e43e5f5db05f320e1d2",
+      "pg-22520": "846d5d427c72e5945746ca0d001395fc9242cf546a724525ab0ce396662a5eda",
+      "pg-22603": "72ffa208721ecc29eecbf5c6a2be5ccb9de382a4893f3e1585ed29565d5825ec",
+      "pg-2274": "aaa933556de88bba42a46f8c89f20e0b76d6e6bf630a2f23bf23da2f235f4511",
+      "pg-22994": "5db34d2b4083ed1d6cf272944344213056114b4b4ddf71a074150ebca8781e9c",
+      "pg-2300": "cc6f57bfff9fdf8340f3bb36753c058784de9785f1e3db85cc4ec65b4f6d7c9d",
+      "pg-23354": "7024e7b6028376ac50ba7489a12eb6695cb97a0bc124a5a174a9fe048a96b6bb",
+      "pg-23440": "1cc1ce4a911b0724b66df2c24581f4e782f9b4df8f61635616682d90bb48afc9",
+      "pg-24270": "24e8ab0140111baa4c01ce6f5f7a93b7d21d4680845461e825b6a2e36f135ca1",
+      "pg-24388": "2e2100f75f57f0d86aef46015c1910fa1a3e215f8131e4bed8c5ebed47af7e7d",
+      "pg-2440": "5551be06efc08e1e6ca69f1140ea2c2fea34508d8b26bd9c61ad90d41cdb9ce4",
+      "pg-24409": "538cdecef2658aa5d3882fa87dd2436fa05bd521f6c69718205b7c0cb7dea74f",
+      "pg-2447": "b661a2f5ed405bd2fd4786fac55a3dbfc1b4d91c61e73126f47a8db34369e5c7",
+      "pg-245": "cffbcbeee2f759ccb624de5512dc7507947df008e8c950bb1bbf1aa60b748cd2",
+      "pg-24583": "8ba7784fcef088e99369a9da7fa764b42294f07060d5e57c0c14c52405666e0b",
+      "pg-2512": "566ae10ca69f378752379cc00a5a45925a2fd80680f6ea70ff5e575f8d296eb3",
+      "pg-25292": "a6c322354a05b1bcd0eb850bc26628b63dd9a6b2085c9db4f646fbf6496767c1",
+      "pg-25308": "90bc476d0d39a4040242f580be831859097f50fd7412e90b296a6dceedeec386",
+      "pg-26019": "881cc7b6579da3620a85c43ebf4719ac7272977281c8a4bbbfd04f745363e014",
+      "pg-26158": "bee30d93d5f42c604f1aeaae35f21b973459f5d145c6ae367bb07e5dd7dc7eba",
+      "pg-26192": "e1a72625e7f9a55e7fd62ce2300ca6626fc8f8152770c3c5ccb08b46540a86ed",
+      "pg-26492": "31e2d312bfe6ddc1c9b0ed3ee9c74cd5a54ab39cd50400fa223df562484f83eb",
+      "pg-26842": "bb1bf0166e863fafe0d2c3cb60f20bfa14ee52577fa596caf706cb9c55129f19",
+      "pg-26935": "c4da394287d790e4e90dc3ac4d42d6f808155790146375cd4647b8be37cb6f97",
+      "pg-27083": "8b5ecc80bef57c453749836b2c008b324e9ccc39327ff93ee00332c17ca62bf5",
+      "pg-27250": "d08101d3cb6358c7c2a16dc82df6760023f841b57a8e0bb5b109f888bfa446c3",
+      "pg-27285": "0303d15d05fa5bbcedb369dc4593f5edf446584d263986ac28ab79a84d22a4a2",
+      "pg-2735": "b17e37cab6a1dd893a3bc25ef5ba35ba6c2895309bd0dbbf206fdbe3be5788c5",
+      "pg-27821": "c8ec26d14d1fedfdc96004d11d079ca18edbe1f6224cdbf61309c8346179aa7f",
+      "pg-27902": "461410c2509dc69e1efce7345d88a9405dd64b772d5ca3a4418301fdcd9fbcec",
+      "pg-28019": "b35b3ecc6d5242605b2e4e173f36d99924f5a029161856a613661b2a930775b7",
+      "pg-28274": "12eb65530476474625d5c1acaa788409a65744c3449fb2caf2481e13cfb8f0e2",
+      "pg-28380": "b97c7cfea02e0bccdf8a7eba2fb164d56a2ca91078547dce8b7d9942a4581dbf",
+      "pg-28613": "9bd3bb569006b13add018870f67c6a27ba7ead5b5927f4b69e1020876afbb6f6",
+      "pg-28696": "d2199f29e5f34006880aafef0d6a790497e6a041f13803768ecaf473f3420de0",
+      "pg-2871": "c52dc7ea66f2d7e1700e4fc8e5937044d0285e7a540bf95f9fba4ceb411fc573",
+      "pg-2872": "26aecd2a1db80b8fbc37747af48c00cc46ca01b5fecee745b8ef47ba8a271f20",
+      "pg-28906": "160ed619bfe628989e2410387b95c8f6910aa0df5684cb6f3eda6489e029fa40",
+      "pg-2895": "368340b8cbe72e091bc9aafaaa761b989193a59f612b645d8c326de3dab5ce23",
+      "pg-29031": "0bca814eeb69494d7ce70630a6b5f3b76ec49a5f39ef5b0a45a434ebefb0d661",
+      "pg-29042": "9eabe8623f303c888f25b7eecd1beb6986843b8e10b0182870bbd48087f2eaf2",
+      "pg-29313": "1f13ee90cffd95c90821bed52fec07f546c7171dc8c99a46831b78533cf1b1c8",
+      "pg-29314": "472db07535225fb6997b2f6b8005c156d8654aee0aabdcdbfeb380ed6bcfc752",
+      "pg-2938": "0a8f845e4dd9306aaad66af24f1a9dff17137d04f84e7d7a26d6b63b81f4204d",
+      "pg-29399": "2d3eee94444b69ef2ba48335f854a747e98a18e44a3e6dd885af7b8868e86a4b",
+      "pg-2950": "9170cc7d86352ce7a8d0a1f2c8225a713b0fd4b5be2322e401a24f2a155f0012",
+      "pg-29798": "5d5c58e4a63870e4aada66fd9eb8614223ba346666e72b8e65262809185412a9",
+      "pg-3020": "b8d527b508de7512eac386d52c5aad409c5985d7e4b70a191027d631bad8acb5",
+      "pg-30249": "4680be4c08ce1d0530908b22c98adc1e0130f42c5750f9332a94ff23b98031bd",
+      "pg-30538": "e334f916eda1ad016183faecfb8910c41dba4a2913c804fc47d1aae8027346d9",
+      "pg-307": "23ae22ea0232dfbf622ce62c3f594e8a1d31134ea3c7c1fb20487e783d7fb5c5",
+      "pg-3076": "38aeac6c27a670e4134e62c945fd7348541909f6e903147ebbc0d4590f10463d",
+      "pg-3127": "5ff63ee375ddf5264730be8ac3402aa25e5b600f58b8121c6be3fc2f6fc09e6d",
+      "pg-31316": "89a895e0198bfad50320bed2abc3b077e2fcaa7f3ecae0236fc79318f9754dc8",
+      "pg-3133": "25a90d5987102e728587fa75153f979597675b46ee077626a60b0ff4dda40812",
+      "pg-316": "01fb9e79bc938cc212cd570bf374df7daeeb02ad67ef751529d07ac9573aaee3",
+      "pg-3176": "4cc9dc03cb43a7da7d1225c42558f12dc02a587514bdbfd63a0fa4181d3b4789",
+      "pg-3177": "9cb20b2cf671e814a76ca3ecc6d4943224c4277f994a37fa11f4308ad3922e06",
+      "pg-318": "e97143c63e68fa6d70d3a98b1d39803da75627bc8d24996ea2f1f6a4163097cf",
+      "pg-31987": "3b593914cb5895cd49ee11b94c67d683c2cb3e2d318e8a6deaaf2f1088f9f794",
+      "pg-3231": "e9394c8afbebb8c32c2caa687e486847d76a5a3507554ee3aaf2818b610dff6e",
+      "pg-3260": "3e68099195e41ff9a40ac4c0953c62d63c90d78302d5b04509b9b12fcc074be7",
+      "pg-33013": "3655edfe7a61ab939d8487eb2924c75b84277548a559287058845c355970d825",
+      "pg-33224": "667189318e6875c0afc21d04e594e3397b269ce62a5a66d12e3b8eac10bfeae9",
+      "pg-33236": "dd65ab0880aa1b55e9b7e86ed1be02b1c64786e7a29fc39bef1fc29039f13de3",
+      "pg-33283": "9982a91c5c1d3dc6c6b2cf089b59ec9f71f8043d0056217144c00537176244fb",
+      "pg-33310": "ae4842a68b634397752f94f51b2fba286a7c09634e9a80f808104df500e230cf",
+      "pg-3332": "17874e079ca8c66c8ef1687f0bf9e777347e6cc0d28b7180f671dfe21c92f4c2",
+      "pg-33342": "be6e72cec94ea0c166ccaeed67b475a5aec45fa09c124181bbd5be1568d8f8f2",
+      "pg-33346": "c78055274b28772cdcc8fca64f43a45295a30e48bfec6947c9378d6c9b633c08",
+      "pg-3335": "b31556470f7176e0c6310934971f28802dbdb32a998ce79520dff8ab79b37132",
+      "pg-33447": "9baa614fe800245db2cc67b48d4e583f5899d395d2e7cde40f0472231e4f0238",
+      "pg-33645": "e666e31700697c6ed3028e29e30cbea5884183e03736437fc05640fdc4dc7f44",
+      "pg-33757": "b47cf5a476a867d473ea52a8b78418d8ea7a46baf616646ff00bea82558d5ef9",
+      "pg-33960": "82a985a72424aa179324d65b67ca93397be46cff71e14cc79ef46f051053f894",
+      "pg-33987": "bf6502a12fc1e0341d782f7dd31ceab6814e3c4bbddb2a64f98b947f985d8965",
+      "pg-34036": "3ae6ac532ab6c22c804d0bf04b763c6ab258d0e07d1573876aad4ce7a692e31e",
+      "pg-34056": "d99b87628fe8ff74f8361491b941a42fba247f27e6e7cc90e1f5756e3820990b",
+      "pg-34086": "d6c88704ea40007ba9bfa69fe382e45dc15b3857818037200ebb7bdb4b77fb02",
+      "pg-34093": "efa3effa821d57b29e3700055de64c4ada3b8bdcea57afc76767317edcb8caa3",
+      "pg-34110": "fe8494c98ddfa4a4b49f728ce3f77281a6377431336bad8a74fde09badf68383",
+      "pg-34175": "ce5e49fba35fb811a57a0cb1b24b195245bcd807a74f1bef2b8a0771479b5a6d",
+      "pg-34238": "f4bde7da97f793082f01c81aec051f7b5155d52e7fe83f62cf50db1f1ed69e27",
+      "pg-3424": "bce891f919dea0c5a21553b6e5f4dec5e125b2ed583e6aaa5bc85fd021d89cc0",
+      "pg-3470": "12c6661d4ea3b53448e5e736d155d379498eacfb361a33115b9f2af1c4deff04",
+      "pg-34856": "81c95fa1a6830707b02dfd946c66724a5c86ba569ed771bee76d5756e6d50f35",
+      "pg-35062": "9b621fb950e9b2f57b92d8248c408adf4481808a519e1014561e62b428c1e44d",
+      "pg-35063": "8b359cda76223685efd37c7b3f97c584960343acf3ca1f511053f8cce31bef56",
+      "pg-35277": "6c387d818744b5a28449a47dc63014ef5adeb6327ee7aa4cd6704b35827d94ea",
+      "pg-35316": "6e62e9c2763773f39fdbd3ef2313dda69b7d25ba4c45106c75bf3d8ffcdb19a5",
+      "pg-3533": "1638fe49f2b9dd141d679d74a50b92a66a88d3cc0a24c96564f1130db013ca58",
+      "pg-35461": "fcb57b4544ab34f5d439df68e3cb74b00da2df42f8ffd40543de2a0f71f75fcc",
+      "pg-35696": "1685910d06f627e0de6886e98c8d4ce8d7617e2dadc23c641c579d481f17c1ad",
+      "pg-35861": "a17b34d88b3afbaf5f38cba76d29025edde5900fe95369478e474234ef4e9870",
+      "pg-35933": "dfb9bf9482177366c4e7410fac9376d2fb7b3f54a968ac51e369ffcb10ff111f",
+      "pg-36173": "adbd655a15cf0f1cc4b6f125a151f23fe287383a172359225d4426e1b1adb3a6",
+      "pg-3620": "b2b7a975d43074545089fe787eb3af097193cc23291b204aa29fb5dd1dc1e76f",
+      "pg-3623": "e3e7a37592bff794a313c4b729efd56f8f0086d1e47d53d04d4b4ddd06a6face",
+      "pg-365": "b1da9d9222d97960f09fb827dda8e453cb7844685aa83f40e0350106254f255d",
+      "pg-36504": "5d10da59183fc3f6a9e58ae5188ec775338d514fb3094b3df7b70909909f7a12",
+      "pg-3657": "269225cc34029f8365c8a03dba434d9a3c476b78e5a3b0050fd475ab0a29bbf4",
+      "pg-3677": "042ecb19340ee12e157a81a1ecc99366f50678c03317c05fbaa361b224f989fe",
+      "pg-36830": "91acd739b009ebb619f0267588050a46aae6d28a459585afc71bc890e581a10e",
+      "pg-36892": "bb4869dd523d224ab7b2804f74015743c322a91ff84cde41a6cdbb56205ab533",
+      "pg-36948": "5fc5cf8475eb5c277483de114a31979efa607d2adc3293cf8c2a29ca65e8f7ec",
+      "pg-37206": "9e54e1ee1c06f3b0baf4af998b8cf4e01b5d9ec3d0946f5faf37a59969e6a87f",
+      "pg-3727": "b5d2d309208055907fb7e310b311325dd1bad33b28b0a9487d57ed57df59a93e",
+      "pg-3728": "ca173f513b1bf7027ec45b1c777081928bd2a53e1429889363cf10cf0e9b3763",
+      "pg-3772": "bfe9c4aafd7b7e28f280970f5c263a49538c7aff12fddcc3eaaab06098dc2f97",
+      "pg-37787": "afa876e1726bcca1a418c8d3910354dc5f76d93dfa11e302f15a9acb8be0ab79",
+      "pg-3796": "212e83f6c6d564ef0eac824eee3e5568cf31050d728a462239c6bc508b1a2a91",
+      "pg-3798": "faeb3a318ba9b9595724603a3f9f3df430dbe4999a21c57b55061a0e77449c2c",
+      "pg-38024": "4a02dcd4c2b44d37b33f86a74f5b1997bc589cd5a828955ad2e95f6c37c3e9be",
+      "pg-381": "ea60e13082f56b021ba004e256a936a371802d3587bd321adbf9cb6cfdd35692",
+      "pg-3832": "dd0c8a9ed10604e4a900f6ca1fb99326bcc7185d27fb1f8c198405f41b42ab04",
+      "pg-38363": "dfb79eb1b964b577e6dd84a3917df505bc355637b2854961ab4ce970f130d4c8",
+      "pg-3837": "6024429cf5548ddbb78c505ab050c5ac8ebb90de3293f670943320d5fbcc4efb",
+      "pg-38727": "6f985083d9871d7079570d4ee5e5dd95c16fd4dd34bf8f1f03af982c0eab4f8e",
+      "pg-38886": "7f5a62f041f9abffa4c8802836f226e3f93f40f2335f448d008c6dfc7502a62b",
+      "pg-38984": "227730d44906f191e194055708ca74ef10eb1f58fd1427739068f1c42ebb709e",
+      "pg-39011": "1369b7a15ec22e9bc71333a87de076989b06ea1b8385b1558a6e895a95ff8c78",
+      "pg-39244": "49daa80b1843334895e1985deb90c3450694e82f902a00ad4afd24326e5107c3",
+      "pg-39275": "13dd57593618ff8383d8ce4022c8d86dd78afc44c6a353cc086bb4482d8f6100",
+      "pg-39904": "a001c47508d9564b151c59bd2a91dd9a7ae793c8b2c4a35e16c5835e32943cbc",
+      "pg-39906": "9a45b6c0f286a1d4ca44ad1112d89d2425555e65175a2a6a9f112793ca3dedda",
+      "pg-39972": "5cb4e01fbffedde6ee2efaef60db61a4fe808e1b2c813dd871b6f8f2e2d6b26d",
+      "pg-40000": "ec509725ef1577ad9ed2f789be44f6b7882afed1f1ff0498f73ddd54de504851",
+      "pg-40652": "83504ce4dc284a95c42a4645338df69fea5d6e4f131994f0a190d70e811a65c4",
+      "pg-40659": "56d936fa1327c5b0499b876e88c71b9a342913c2333b6c7dc25f71689638b565",
+      "pg-40701": "b6899530ade3a59d3fed099c5a899fc5e3d0ce09b264c836d0e5d9ccdb9fc414",
+      "pg-41800": "95bc28de2ca36c352e3dea16db67a3ecb3f2938d08e422f0e5c391a3a5273655",
+      "pg-41942": "db9bdc26e124d32599d15cee1f64cea00884d6e0ffc8e2b39b76170c040947a3",
+      "pg-41953": "e486943d6d2c7842cc445f4aec1f47d6c496e8c140208b7800acffe3a27b460d",
+      "pg-42226": "3c74c09cadde44aa8f19c34327eaab350d218b06c366e590750d86914b8e00c3",
+      "pg-4224": "27d5fe22208c6ced68f59c84574ed27044672b699e568571ee399ea5b71a8164",
+      "pg-4225": "64480299ccadb16e3dbf747b4ac6b01f1b4a63a1ce94c23b23d0c04a2ac0d840",
+      "pg-4232": "2973ccd5652abef173cece21b4f5a2529867787f8fc7791fe16b5c5daec2b5b6",
+      "pg-4238": "bcfa8ca1947a4e20339bb7d64690aa48cdbb3a6a15215cfe7253ae1e949efd63",
+      "pg-42741": "991ee2c9a864a36278fb01e914def3f5e7a526460aae0219519a051c725835e9",
+      "pg-4277": "24ccd437ee90749816f20876ba58c57c1effe34712c4520e21b26774e3637ab9",
+      "pg-4278": "1adced8fbbec74811bff4c75a78c0aa16e2a45c3a455d87933498abd8260df80",
+      "pg-4328": "cbac46ae38d39ec0a5895e6fc98b0775667b8e07e28f5e1f035fe49f1eae2aa1",
+      "pg-4329": "d61de4d81b8d9fb53fcb6fac2d971c7c8d46498f0e8bcb3afb265bb743000979",
+      "pg-4330": "c2d39d1ac3d1f228ce12f6ff5ab8b0aeb3b9619f50ab314ebd666847a1a95f26",
+      "pg-4335": "d56079af23c0aaa7d2f0529c99e9579d1cd119b97558ed3c387f37e00f1d14e7",
+      "pg-43453": "ef3ed3b39d00d713cd1b507e349754150e5d6e83a0a10b4ea5af024e59d52c94",
+      "pg-4351": "36d73c6623b44dcc45804f27fc45d960ee4c62e894f3de5e1158e02294c12076",
+      "pg-43556": "8844883e2a230fe4b54b13305669af60384f7d2b49df278fb5b45d3f9f902f83",
+      "pg-44073": "86828ea15d44aaf156d4f2b834bb9aaa6a9c2232d0d47b796768e0325745b4b4",
+      "pg-44096": "e83a8e3ec66ecf1f634712b1c5d09223c476b7e5869c94ba13e3a0453fdbfd26",
+      "pg-44385": "29256554819cbc4a8dd0ee33e7b7c157b17ada8b9544da71cde62522546a84ac",
+      "pg-44530": "a2ecf9421c3372b90ed31fdc8cced53d1c4f9fb39fb1603ea87adc263a72fe20",
+      "pg-44551": "9ca6c3a77f79599f81ecf44484be681d3773bf88d7b2a61ea190224feb9c0b74",
+      "pg-44649": "b065ec1ef8187950c8242fda68f130bbbb74ad2d0b3acff756b75c7b0430c91d",
+      "pg-44726": "32e6c5b813bad8ad6ebd793d047b6228a7ef63546e4ace187aed12b2f0eb28d7",
+      "pg-45": "30312750954df9a0b73b8c97f34e11b0de3cd36cc370c233a4e27d5fcfa80857",
+      "pg-45149": "e6b02a694b848cfd3455de3fd751c4a3deea8fd8e6c29ce270f94a484c78320b",
+      "pg-45502": "44c1e801e310b7b3e8c410c2f406b11fcc5e1251314076b3796e75a1cfa4c83b",
+      "pg-45688": "00fe25670a7ed959887d5b07006ded64ee8b4a8cd080f502cd26c4d8035c6591",
+      "pg-45950": "c302b142ca770d3c4748cdcbdef451d6faa80a6726f7155b1e9036de3cda0e46",
+      "pg-46399": "9b6511dcf527b3f8140405b9c718fc3cba2d02a6917664175a7e4bce0f8cb54b",
+      "pg-46954": "80413a2e7c7f2afff8243ae98b1da1bc6138727bd414076aa29a7842e23d3aa6",
+      "pg-47": "f26645662b861af08a3e321c18896ddaad8f6f1fd276807f2bb35e2222065af3",
+      "pg-47015": "609f42b1bad8b06238bd664dfb3def02cbf1ffdb5da711c4d72c04083dc2077f",
+      "pg-48108": "9d9d6dc91a34aa067fe1f4058134dac9f9eceea70e7bcf69d3b6c3405dc85c5b",
+      "pg-48129": "a4cc4bb31553a4dc19bc8b41398e2c3913e8b429d0b49d1543aff9e98a81766b",
+      "pg-48394": "872a1987c2fec24a0398b7fc50cbc6f8155350da8614e22b5748fae12255a7c1",
+      "pg-48507": "f8fb02eaf0455c2c39d4f3ac00b2e0a425790a6474fc0a8a5b09bdc2750b32c4",
+      "pg-48602": "1dd8554b9619e63e3039b9fe9c318560d4e9508eb7993402befbf93d0bbf120c",
+      "pg-49207": "58066173572e4c1ed814501a6a3f8358c9a2bd5cd0c99958e29a7f6c77895ebf",
+      "pg-4925": "501e1599632baf6c5aba45f4a20fdcc1e2c5edf2b6b8f75c8ce137f831c856b8",
+      "pg-5068": "c8f03b129e9f2c99f8aff7968235893dc42ccfd524b2ad2e5f2cb23f2275aeb4",
+      "pg-51": "7e04d2dadbcf5e369d0f8e160db854e414c96ec5604d3ec1d0a6a5a4de58b8d0",
+      "pg-5131": "727fda6752d6d5614a5c53f1f0c33216e4b8080d13ae4da26dbe0717fe02663f",
+      "pg-51893": "a778151cec4798d8b49861b65401fc30065a8255b3aa76cb48dc59a618d5bba4",
+      "pg-53311": "122ae61892391810f398f37f1dfa7bde628afd66353bf4efd4c8d432c16a13b4",
+      "pg-534": "9b30a2b95afe2b18e864e429922c3143b5ce351354af285ef277bed28f92a47b",
+      "pg-5340": "5ff68d61f20fa8fb4957ec290e4d19a1cea5d9fbb9c09d0144f7f5957662e6bc",
+      "pg-5341": "53cc3dc4589b6de8eb72226ab81b298a2b452e56d307f030fc80983b025ac4e2",
+      "pg-5342": "8537a3da7c043003477ac53bb22d7f65080f4dcefb4c0707ca217c7cd619dadc",
+      "pg-5343": "3f6d25d4b20e2b7696e9b89b7845f67205335083f3f3b92029226f14a84244ef",
+      "pg-536": "5b560da545ab004857f7317b43c6f8630dffee926143844bd0498cb3547f7685",
+      "pg-53678": "87cc73df36835fc6edacd2804f4b7a1a9e75cc17e99141d723e7458c5aa08b4f",
+      "pg-5398": "1610cd488a7182b76012762a182f2b65c1dca2da69577cf2bfb461783e9aef0a",
+      "pg-54111": "971312bd86365af1cff9e7c50a6cc3a9d2f16a6fd5a54540d7adc9b17d1efd20",
+      "pg-544": "4c6fa7bf746b1be144ff547ed85a6467242f831cb44997a58c33574ff8393513",
+      "pg-54604": "a7ea8eddf9995bd8585220627d1db7fb357ca117027e816990220d9204e5eed3",
+      "pg-54953": "1f5c8a93d2b4128fbe237b629a79bca7b1901349ec800dc2cad825dec31fd0aa",
+      "pg-55300": "1087d109fdff7cfce29750d2d51f4e068094088d2b2dd1302973136c82f0741e",
+      "pg-56004": "56352910c7257e146bb2cfceaaa97684cf4d345091070041ba41c8e64c8625f6",
+      "pg-56262": "1b016355067f592cd516eac130bd9efabef7257fb4a3345f244296ac59b25337",
+      "pg-56484": "d6146fef3c169a5a87139c5709eec8bc266e90bfed90c566bb1e599c4c31c1f5",
+      "pg-56623": "4348012d8d6504b5a5ecb8dcd6659cb32d3673f549aad4e24e5ef136914bc9f8",
+      "pg-56663": "9aaa768e68dfc11e0004f6d16321c0a59b89fb46182c54e05e837e2a1181f18b",
+      "pg-57642": "8750e19c8165c974d9f579239e72a80bea226d811ea38e6d239d5e37ad3be123",
+      "pg-58310": "d9af938397914fde273e1a9dc01cadfeb980f4dbf09fadcf6a3850de0c90e41b",
+      "pg-58781": "9acc57e51b6306d3e223f13f5a5f4322c08506e4e8742b2ec2adb7d4925b14b2",
+      "pg-59865": "d9574977394e9a0cd896128f4b5ce7b904e537548db7f98421bccab17a30144e",
+      "pg-5992": "3b57327f2e9b91c541c047e861248e40ad99e55b2b32784096486b974159d70f",
+      "pg-60312": "a1bf9c5643bed9bb1dda6eb475b6ef9b2a8390dba6f3c933753e34f51039e536",
+      "pg-60315": "a3eb5dbccc301bde66727032eff57dfe1356c2f96e7f94db2f3797695dd40d42",
+      "pg-60645": "851151f3e4a20531fb4fb3424de027d428f9a9924de4a2f4a137103a309ebb24",
+      "pg-60919": "b779c567e649677c6340ebcd3dd1cc3b87f6bde68c172cf2b2c88b9ccaefa4b9",
+      "pg-6104": "9fa152786738fc0b168f391f51b931ee87fb50b0bd74da0d610d21a3c85f5e2e",
+      "pg-6119": "8b4a77e011c21f85fdff5ff265be3283f40811ea8fad839e157f3b1d6e67de3d",
+      "pg-61236": "a08c03ae54a0b0d9a22d69bc1b812aa2f53f7a0bfaca8d8438c9be418f69f558",
+      "pg-61723": "2af0a40d1ce9c29cb29d6ff71e7f9dc03bff2dd311e9b3b6671a6b626136b3bd",
+      "pg-61740": "fbdfec521dfc82a7babc812f2baa4a7a5048d007acb27c73fa9d5be9125edb2f",
+      "pg-61758": "bc1939ecd72a165994deeff25961e22ee4890195e8569ae3c3c51b8eaaa934ee",
+      "pg-61812": "eaacbc514daf14dabd89ac5f9232a97346115a8a4e709ec04f1a1f95f2872a49",
+      "pg-61911": "702c045fe6cf403385cc528f3898c4e8468d31588876d4226c9e2ab143710b36",
+      "pg-62530": "8e361501d996e98512943b34bb8c9ffad0c0f4045a04ad3122fef0f85ed5c0f6",
+      "pg-62940": "5be956795a35f5a7f68941bd9b0d610742d66ffc453fd0c81cbf4844ce5f59ec",
+      "pg-6340": "88c9cbd999e0ffb12d22d15f10c3c509e8a5ad0d9b9cebb81f778fa27ede3ed2",
+      "pg-64120": "1ac137179bd90cd0d18c39a79ee7a886cd0adb91cd0eaf4d964110c55246dc16",
+      "pg-6435": "f44094afc0b9fb5b9f05fa991e8d51ba871be15a7f66ef3a63aceb3dde3c3e5b",
+      "pg-64365": "7fb3a883d05a7ea0478a054d2498bc0125c7aaa942d38f5e1e4b2508ada4e0eb",
+      "pg-648": "0edb91cd4bf19ba61f9940ad1c7abcc990d469d73b84012b390cf6110e24bfc2",
+      "pg-650": "1aeea02a6fdc9f310ec58d890229a94df6cda0fe0e377c6f6f81e24d20d90901",
+      "pg-65735": "2d1ae623bffcf8875802b522d321d5f601fc0b9800103c9daf720fdadce174c5",
+      "pg-66886": "24ed2753d4bbfb6f06e7553031220ee2e4549f2d951c48697df31bbdc74409c8",
+      "pg-67141": "b50ed2a0810945b0c5c9511913ad3c04354cf089a881d45a046ea6e910e273b8",
+      "pg-67153": "fc8df775c34bcf9f7761798eaf074d71ad6dde469a97a551fcfd095e3f4c417d",
+      "pg-67287": "c649c065d633342f87e15470ec7efb9b94ed361b192b34a37b0bfd1875e15c8d",
+      "pg-67490": "d4dd6357f602378abbaecbd889a50d5a7db33b971ecde958db5e47552e139ad6",
+      "pg-675": "4a01f8def4615e84dd5c6d54badcbbfed68213d3d0b11771d419a0abbe5183a6",
+      "pg-67979": "3e36dc5552ae4fa684a4df6235c12e4c25d646b0ad1e5e980b3cf2e09bf55170",
+      "pg-69752": "5572a71b7db8fe8a9a2df35b6387dfc6dc2e8a8ad9e2a2e3ccfcdd646324ed55",
+      "pg-69807": "8152e5fc1fc70fb09aa95077a0a819ffff56f414aef4a12aeb624589f82e8399",
+      "pg-699": "6b49bbe27f37a223d1f9e51ad59ceab26a203e8734a2650d4dd130af2c32b260",
+      "pg-7116": "c6748f362e7f0afad08b4e31b6f5730051ead797f4baec9d408037b577e21524",
+      "pg-71696": "3343e03cc4a26537a637608d1f45c745d30574f0b9e7c6fda502483c66bc104e",
+      "pg-71999": "625394065959eba3fea5098545728f656a6b6323b325c15b4f65cce969753b1d",
+      "pg-72333": "f93373c1f6e0dcac9906f342c82f492de3b49ea724d7bf14d80e70c2ebb36c71",
+      "pg-72482": "0e30b82ebd65b301828d9629250fb3366e1a3a87f921b9fb5dc2b6ba8cfb8d21",
+      "pg-7324": "81f73fde1850cc15ac797f7869d71ed607ebdf18a9335065b9f2e8b7596ce52d",
+      "pg-73498": "b70be409feab0b6e1a455cca9f47442c725350c7058bd5d32dd5b433f958efa9",
+      "pg-7385": "2f078882d97d755c3564cc100245fef41b4593f043100fcf8101ce245e466f94",
+      "pg-74192": "d696376b6fcdfe668fb9eb225d5192fd96928ff5a7f4e907f43b3dedb40c09a5",
+      "pg-754": "68d5657ed71ad9d65124b75d12fff376516535ec78864fd42515cc6ed73a0c0a",
+      "pg-76505": "75deb0b98067203b800734778c631f27c974ccc1aa05d8757def940ea492e264",
+      "pg-76649": "f73868c7404fe441136be71730eafc5a293816e64192eb1b0f72c485579c0a16",
+      "pg-77055": "2b47a4e6ab740f294c273ec16fe3701dd29255339255832522fa9fc1e128464c",
+      "pg-78612": "0b8aea4b8ded754b95ee47c46b6506b3ea204d0929d5773683a9486ac9e319f6",
+      "pg-78669": "f5a01fc425a4a5d1f7a2ed84b9cad8ebc8fc6c8090311ea1ecfa0d2d1f3ee7ed",
+      "pg-79076": "141cd54c768dfa01d8b482abe76caffbefd36668ef1f89fe542e67a713197fa6",
+      "pg-79698": "12fde5aef69dd07dd033cf726551966ae3133643da9c4934b6a1549990f56d2d",
+      "pg-8457": "cb64ea6f19f308bc6cf99edf69abf7c55739235dacaacf268aaf1274b31bb225",
+      "pg-8667": "3f8e4e63e0805afb31f5a0908ca683cce4a33e10b5f74f5756370600ca600c80",
+      "pg-9104": "a2361c02437daf0d76553ca1bdfa17da8137af00f0887cfd988ba6e3c3426a2c",
+      "pg-9999": "94a89ee3279b29d1e22d6bd8d3603ed27f01087ec92b3a9979f133a589eda840",
+      "pga-e00004": "72896c4cb4185ee7d86457c639531bba11ba8ce493d0cb631141b934881953d3"
+    },
+    "rows_sha256": "7d54657641c7cefa374f5af662d3ff655895b6e3524c81acf8cd25f288f29610",
+    "source_code_sha256": {
+      "__init__.py": "053011681f86fd513abf92c79bb951cd30d1b09b49b3e622aededde018d4e7be",
+      "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "build.py": "b3fd1e4d777679c7bfe056456ee48c599b92bb597c80a5a4f2905b210e35da26",
+      "clean.py": "d7180b04f3278d06fb13ccffca1b35a72b82910297d9eecaf7d8b1afd0b3911c",
+      "cli.py": "0b3246fe27ce7fb64cb9ba8416f0ab09bf4bb091ad6380097ebc0c3ab84530c0",
+      "crosswalk.py": "6cf0305e2c7f0de5867b455158f96a3afc22ea26f6ef142a3f5913c80ad4f4f1",
+      "evidence.py": "e236afa2f0bdb31691987c0b03b737cd64e0e996d36bb8792dd3d94d873d0f80",
+      "overrides.py": "fbf3b8aafa784a0bb7bf19d50da771967a5c60ba93b2f968196a12aa722a13ba",
+      "regional.py": "ca782d3fe0efeff6718953b7277f6cdf04456bf6f08f22e6c8273f79805f57a9",
+      "report.py": "efa6846865689919fc6a3f3a0d435d0280923b11ec9e0dd1361eecd145d471f7",
+      "sources.py": "ec2afb65bb3c2dfa06450afa8c9c3f85bb05019b8b889ebab2f903efa4211142"
+    },
+    "unmatched_overrides": []
+  }
+}

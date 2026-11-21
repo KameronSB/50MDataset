@@ -1,0 +1,5 @@
+SELECT ?author ?pgAuthor ?birth ?death ?citizenship ?label ?description WHERE {
+  ?author wdt:P1938 ?pgAuthor; wdt:P570 ?death; wdt:P569 ?birth; wdt:P27 ?citizenship; rdfs:label ?label.
+  FILTER(LANG(?label)="en")
+  OPTIONAL { ?author schema:description ?description. FILTER(LANG(?description)="en") }
+}
