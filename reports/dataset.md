@@ -81,7 +81,7 @@ Requested 50,000,000 characters. Accepted band 49,000,000–51,000,000. Nominal 
 
 The largest author group is Montgomery, L. M. (Lucy Maud), 1874-1942; Claus, M. A. (May Austin), 1882-1976 [Illustrator]; Claus, William A. J. (William Anton Joseph), 1862-1926 [Illustrator] with 3,727,574 characters (7.48%).
 
-The JSON report includes per-partition composition, author concentration, input hashes and export separator counts. See the repository README for cleaning, eligibility and overlap rules.
+The release statistics include per-partition composition, author concentration, input hashes and export separator counts. The preparation guide documents the cleaning, eligibility and overlap rules. [Release statistics](../data/statistics.json) · [Preparation guide](../docs/preparation.md)
 
 Rebuild against the retained pool with the following command.
 

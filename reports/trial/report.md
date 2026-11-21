@@ -69,7 +69,7 @@ Requested 50,000,000 characters. Accepted band 49,000,000–51,000,000. Nominal 
 
 The largest author group is Kirby, William, 1817-1906 with 1,273,435 characters (28.57%).
 
-The JSON report includes per-partition composition, author concentration, input hashes and export separator counts. See the repository README for cleaning, eligibility and overlap rules.
+The trial statistics include per-partition composition, author concentration, input hashes and export separator counts. The preparation guide documents the cleaning, eligibility and overlap rules. [Trial statistics](statistics.json) · [Preparation guide](../../docs/preparation.md)
 
 Rebuild against the retained pool with the following command.
 

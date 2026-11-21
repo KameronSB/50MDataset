@@ -1,2 +1,4 @@
 * text=auto eol=lf
-data/releases/** -text
+data/*.jsonl -text
+data/split_manifest.csv -text
+data/statistics.json -text

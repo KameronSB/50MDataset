@@ -1,5 +1,11 @@
 /data/*
-!/data/releases/
+!/data/train.jsonl
+!/data/validation.jsonl
+!/data/test.jsonl
+!/data/split_manifest.csv
+!/data/statistics.json
+/reports/full-*/
+/reports/trial-*-*/
 /.venv/
 /.uv-cache/
 /.cache/
