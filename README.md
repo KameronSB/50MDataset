@@ -2,6 +2,24 @@
 
 A Python pipeline for assembling a whole-document corpus of English writing first published in 1800–1945. The target is 50 million cleaned Unicode characters across training, validation and test. Each work counts toward one topic and one region. The original Shakespeare corpus, tokenizer and model are outside this repository.
 
+## Train from a clone
+
+This revision includes the [frozen dataset](data/releases/full-b5da4f869f5b1869/). Cloning or pulling it gives you all three splits. Each UTF-8 JSONL line contains one document. Pass its `text` field to your tokenizer.
+
+```python
+import json
+from pathlib import Path
+
+release = Path("data/releases/full-b5da4f869f5b1869")  # relative to the clone root
+
+def documents(split):
+    with (release / f"{split}.jsonl").open(encoding="utf-8") as stream:
+        for line in stream:
+            yield json.loads(line)["text"]
+```
+
+Use `documents("train")` for tokenizer fitting and model training, `documents("validation")` during development, and `documents("test")` for final evaluation. The adjacent `split_manifest.csv` records document assignments and `statistics.json` contains the release checksums.
+
 ## Build results
 
 Release `full-b5da4f869f5b1869` contains **49,802,774 cleaned characters in 140 documents by 98 identified principal authors**. All regional and topic shares are within the two-percentage-point tolerance. The largest absolute deviation is 1.76 points. [Measured report](reports/full-b5da4f869f5b1869/report.md) | [JSON statistics and hashes](reports/full-b5da4f869f5b1869/statistics.json) | [Selected works and sources](reports/full-b5da4f869f5b1869/provenance.csv)
@@ -30,7 +48,7 @@ The separate ten-document trial measured 4,456,834 characters. During review we 
 
 Integrity validation passed on Windows. The build reconciled all four text exports and verified 613 catalogue and item metadata files. Repeating the offline build reproduced the build ID, selected corpus, partitions and manifests byte for byte. The unsplit JSONL SHA-256 is `7b1470a8c98481865dbc3d9674c15dad39eb213a5b961b66a402a4ca979ba56e`. Preserve the local data directory to replay this release.
 
-## Run from the repository root
+## Rebuild from the repository root
 
 Install Python 3.11+ and uv. The package uses the standard library at runtime. These commands work in Windows PowerShell and Ubuntu shells. [uv project guide](https://docs.astral.sh/uv/guides/projects/)
 
@@ -107,4 +125,4 @@ Inspect `data/candidates.csv` for source facts, then `audit.csv` in the current 
 
 To add a locally obtained source, place the original file in `data/imports/` and add a UTF-8 row to `data/imports/sources.csv`. Supply a unique ID, the relative `local_file`, source and download references, title, authors, group IDs, language, work date, region, topic, contributor and rights evidence. The required evidence fields are listed in [evidence.py](src/llm_v2_dataset/evidence.py). State the media type, encoding and reviewed start/end lines where appropriate. Re-run `discover` and `fetch`, then `build --offline`. To change decisions on already downloaded materials, `build --offline` suffices.
 
-Raw bytes, cleaned text, work-level exports, local imports, request logs, environments and credentials live outside the Git publication set. The repository contains code, shareable factual provenance, aggregate statistics and configuration. It assigns no corpus-wide licence.
+Git tracks the frozen training release under `data/releases/` alongside the code, factual provenance and reports. Raw downloads, the preparation cache, intermediate builds, local imports and credentials stay local. The source texts retain their individual rights status.
